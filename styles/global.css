@@ -17,12 +17,14 @@ h1 {
     font-family: unit-rounded, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 1.2em;
 }
 
 h2 {
     font-family: industry, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 1em;
 }
 
 p,
@@ -36,7 +38,7 @@ footer {
 /*NAVIGATION BAR*/
 
 header {
-    background-color: aquamarine;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,7 +60,7 @@ nav {
     right: 0px;
     left: 0px;
     top: 30px;
-    background-color: aquamarine;
+    background-color: #fff;
     padding: 0px 0px 0px 30px;
     margin-top: 50px;
 }
@@ -112,33 +114,14 @@ header label {
 @media all and (min-width: 330px) {
     /*links*/
     nav {
-        display: none;
-        position: absolute;
-        right: 0px;
         left: auto;
         top: 90px;
-        background-color: aquamarine;
         padding: 10px 20px;
         margin-top: 0px;
     }
     /*hamburger menu*/
-    header label {
-        display: flex;
-        align-items: center;
-        font-family: pinot-grigio-modern, sans-serif;
-        font-size: 1em;
-        cursor: pointer;
-    }
-    #hamburger-menu {
-        display: none;
-    }
-    #hamburger-menu:checked~nav {
-        display: block;
-    }
     .fa-bars {
-        font-size: 1.5em;
         margin: 0px 40px 0px 15px;
-        cursor: pointer;
     }
 }
 
@@ -146,9 +129,7 @@ header label {
     /*links*/
     nav {
         top: 100px;
-        background-color: aquamarine;
         padding: 10px 50px 50px;
-        margin: 0px;
     }
     nav li {
         font-size: 1.3em;

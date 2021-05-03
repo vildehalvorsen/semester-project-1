@@ -1,0 +1,136 @@
+/*Header*/
+
+.header_pic img {
+    display: none;
+}
+
+
+/*Exhibition spaces*/
+
+.spaces {
+    background-color: rgba(43, 167, 218, 0.15);
+    text-align: center;
+    padding: 10px 20px 30px;
+    margin: 20px 0px;
+}
+
+.spaces h1 {
+    margin: 0px;
+    padding: 10px 0px 20px;
+}
+
+.spaces img {
+    width: 110px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.spaces h2 {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+    max-width: 100px;
+    min-height: 21px;
+    margin: -4px 0px 0px;
+    padding: 5px;
+}
+
+.spaces_content>div {
+    padding: 0px 10px 20px 0px;
+}
+
+.spaces_content {
+    display: flex;
+    overflow: scroll;
+    width: 240px;
+    margin: 0px auto;
+}
+
+
+/*News*/
+
+.news {
+    background-color: rgba(63, 166, 82, 0.15);
+    padding: 10px 20px 30px;
+    margin: 20px 0px;
+}
+
+.news h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 20px;
+}
+
+.news h2 {
+    text-align: center;
+    width: 150px;
+    padding: 6px 10px;
+}
+
+.news img {
+    width: 100px;
+    height: 80px;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+}
+
+.news-text {
+    background-color: #fff;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+}
+
+.news-item a {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.news p {
+    display: none;
+}
+
+
+/*Other info*/
+
+.others {
+    background-color: rgba(245, 129, 18, 0.15);
+    padding: 30px 20px;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.teachers {
+    text-align: center;
+    line-height: 20pt;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+    border-radius: 30px;
+    padding: 5px;
+    width: 120px;
+    margin-right: 5px;
+}
+
+.getinvolved {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 130px;
+    margin-left: 5px;
+}
+
+.getinvolved p {
+    font-size: 0.85em;
+    line-height: 10pt;
+}
+
+
+/*Media Queries*/
+
+@media all and (min-width:600px) {
+    .header_pic img {
+        display: inherit;
+        width: 100%;
+    }
+}

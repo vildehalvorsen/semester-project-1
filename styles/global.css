@@ -5,9 +5,30 @@ body {
     margin: 0px;
 }
 
+
+/*footer*/
+
 footer {
     color: #212a31;
     background-color: rgba(33, 42, 49, 0.15);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 0.8em;
+}
+
+footer>section {
+    padding: 15px;
+}
+
+.footer-info p {
+    width: 100px;
+    margin: 0px;
+}
+
+.footer-hours p {
+    line-height: 8px;
+    width: 150px;
 }
 
 
@@ -47,19 +68,19 @@ header {
 }
 
 header img {
-    margin: 5px 5px 10px 15px;
-    width: 70%;
+    margin: 5px 5px 5px 15px;
+    width: 60%;
 }
 
 
-/*links*/
+/*nav links*/
 
 nav {
     display: none;
     position: absolute;
     right: 0px;
     left: 0px;
-    top: 30px;
+    top: 26px;
     background-color: #fff;
     padding: 0px 0px 0px 30px;
     margin-top: 50px;
@@ -76,6 +97,10 @@ nav li {
     font-size: 1.1em;
     padding-bottom: 20px;
     min-width: 200px;
+}
+
+nav li:hover {
+    text-decoration: underline;
 }
 
 nav ul {
@@ -112,12 +137,19 @@ header label {
 }
 
 @media all and (min-width: 330px) {
+    header img {
+        margin: 5px 5px 5px 15px;
+        width: 70%;
+    }
     /*links*/
     nav {
         left: auto;
-        top: 90px;
+        top: 84px;
         padding: 10px 20px;
         margin-top: 0px;
+    }
+    nav li {
+        padding-bottom: 18px;
     }
     /*hamburger menu*/
     .fa-bars {

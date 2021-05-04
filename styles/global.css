@@ -6,6 +6,37 @@ body {
 }
 
 
+/* FONTS*/
+
+h1 {
+    font-family: unit-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-family: industry, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+h3 {
+    font-family: unit-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+p,
+footer {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 /*footer*/
 
 footer {
@@ -29,30 +60,6 @@ footer>section {
 .footer-hours p {
     line-height: 8px;
     width: 150px;
-}
-
-
-/* FONTS*/
-
-h1 {
-    font-family: unit-rounded, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2em;
-}
-
-h2 {
-    font-family: industry, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1em;
-}
-
-p,
-footer {
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 
@@ -109,6 +116,10 @@ nav ul {
 
 .exb-spaces {
     display: none;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 

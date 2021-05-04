@@ -172,6 +172,7 @@
     }
     .about_wrap {
         flex-direction: row;
+        overflow: visible;
         border-radius: 30px;
         width: 700px;
         height: 350px;

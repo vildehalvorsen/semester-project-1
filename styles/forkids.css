@@ -1,0 +1,260 @@
+    /* Header */
+    
+    .kids_header h1 {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(43, 167, 218, 0.15);
+        padding: 40px 0px;
+        margin: 0px 0px 30px;
+    }
+    /* Info */
+    
+    .kids_info {
+        background-color: rgba(63, 166, 82, 0.15);
+        padding: 5px;
+        margin: 30px 0px;
+    }
+    
+    .kids_container {
+        background-color: #fff;
+        border-radius: 20px;
+        width: 300px;
+        margin: 30px auto;
+    }
+    
+    .kids_container img {
+        width: 300px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .info_text {
+        width: 280px;
+        padding: 0px 10px 10px;
+    }
+    /* Young Star Club*/
+    
+    .ys_info {
+        background-color: rgba(245, 129, 18, 0.15);
+        padding: 5px;
+        margin: 30px 0px;
+    }
+    
+    .ys_container {
+        background-color: #fff;
+        border-radius: 20px;
+        width: 300px;
+        margin: 30px auto;
+    }
+    
+    .img-1 {
+        width: 300px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .img-2 {
+        display: none;
+    }
+    
+    .ys_text {
+        width: 280px;
+        padding: 0px 10px 10px;
+    }
+    /* Exhibition spaces */
+    
+    .spaces {
+        background-color: rgba(43, 167, 218, 0.15);
+        text-align: center;
+        padding: 10px 0px 20px;
+        margin: 30px 0px;
+    }
+    
+    .spaces h1 {
+        margin: 0px;
+        padding: 10px 0px 20px;
+    }
+    
+    .spaces img {
+        width: 110px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .spaces h2 {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+        max-width: 100px;
+        min-height: 21px;
+        margin: -4px 0px 0px;
+        padding: 5px;
+    }
+    
+    .spaces_content>div {
+        padding: 5px 10px 20px 0px;
+        margin: 5px 3px;
+    }
+    
+    .spaces_content>div:hover {
+        transform: scale(1.05);
+    }
+    
+    .spaces_content {
+        display: flex;
+        overflow-y: scroll;
+        width: 250px;
+        margin: 0px auto;
+    }
+    
+    @media all and (min-width:400px) {
+        /* Header */
+        .kids_header h1 {
+            margin: 0px 0px 40px;
+        }
+        /* Info */
+        .kids_info {
+            margin: 40px 0px;
+        }
+        .kids_container {
+            width: 360px;
+            margin: 40px auto;
+        }
+        .kids_container img {
+            width: 360px;
+            height: 120px;
+        }
+        .info_text {
+            width: 320px;
+            padding: 0px 20px 20px;
+        }
+        /* Young Star Club*/
+        .ys_info {
+            margin: 40px 0px;
+        }
+        .ys_container {
+            width: 360px;
+            margin: 40px auto;
+        }
+        .img-1 {
+            width: 360px;
+        }
+        .ys_text {
+            width: 320px;
+            padding: 0px 20px 10px;
+        }
+        /*Exhibition spaces*/
+        .spaces {
+            padding: 25px 0px;
+            margin: 40px 0px;
+        }
+        .spaces_content>div {
+            padding-right: 15px;
+        }
+        .spaces_content {
+            width: 340px;
+        }
+    }
+    
+    @media all and (min-width:600px) {
+        /* Header */
+        .kids_header h1 {
+            font-size: 1.5em;
+        }
+        /* Info */
+        .kids_container {
+            width: 460px;
+        }
+        .kids_container img {
+            width: 460px;
+        }
+        .info_text {
+            width: 409px;
+            padding: 10px 30px 20px;
+        }
+        /* Young Star Club*/
+        .ys_container {
+            width: 560px;
+        }
+        .img-1 {
+            display: none;
+        }
+        .img-2 {
+            display: inherit;
+            float: right;
+            width: 190px;
+            height: 202px;
+            border-radius: 0px 20px 20px 0px;
+        }
+        .ys_text {
+            font-size: 0.9em;
+            width: 350px;
+            padding: 10px 20px;
+        }
+        /*Exhibition spaces*/
+        .spaces_content {
+            width: 450px;
+        }
+    }
+    
+    @media all and (min-width:800px) {
+        /* Header */
+        .kids_header h1 {
+            margin-bottom: 50px;
+        }
+        /* Info */
+        .kids_info {
+            margin: 50px 0px;
+        }
+        .kids_container {
+            width: 700px;
+        }
+        .kids_container img {
+            width: 700px;
+            height: 170px;
+        }
+        .info_text {
+            width: 640px;
+        }
+        .info_text h2 {
+            font-size: 1.1em;
+        }
+        /* Young Star Club*/
+        .ys_info {
+            margin: 50px 0px;
+        }
+        .ys_container {
+            width: 700px;
+        }
+        .img-2 {
+            width: 200px;
+            height: 197px;
+        }
+        .ys_text {
+            font-size: 1em;
+            width: 450px;
+        }
+        .ys_text h2 {
+            font-size: 1.1em;
+        }
+        /*Exhibition spaces*/
+        .spaces_content {
+            overflow-y: visible;
+            width: 640px;
+        }
+    }
+    
+    @media all and (min-width:1300px) {
+        /* Info */
+        .kids_info {
+            width: 1300px;
+            margin: 50px auto;
+        }
+        /* Young Star Club*/
+        .ys_info {
+            width: 1300px;
+            margin: 50px auto;
+        }
+        .spaces {
+            width: 1300px;
+            margin: 50px auto;
+        }
+    }

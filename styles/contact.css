@@ -13,7 +13,7 @@
 
 .contact_container {
     background-color: rgba(43, 167, 218, 0.15);
-    padding: 10px 5px;
+    padding: 10px 0px;
     margin: 30px 0px;
 }
 
@@ -56,6 +56,7 @@ textarea {
 
 textarea {
     height: 100px;
+    width: 180px;
     margin-bottom: 0px;
 }
 
@@ -127,6 +128,11 @@ button:hover {
 }
 
 @media all and (min-width:800px) {
+    /*Header*/
+    .contact_header h1 {
+        font-size: 1.5em;
+        padding: 50px 0px;
+    }
     /*Contact info and form*/
     .contact_container {
         margin: 50px 0px;

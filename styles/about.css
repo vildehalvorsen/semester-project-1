@@ -13,14 +13,12 @@
 
 .about {
     background-color: rgba(63, 166, 82, 0.15);
-    padding: 5px;
+    padding: 5px 0px;
     margin: 30px 0px;
 }
 
 .about img {
     display: none;
-    width: 200px;
-    border-radius: 30px;
 }
 
 .about_wrap p {
@@ -30,10 +28,10 @@
 
 .about_wrap {
     background-color: #fff;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    border-radius: 20px;
     width: 250px;
     height: 250px;
     font-size: 0.9em;
@@ -46,13 +44,12 @@
 
 .visit {
     background-color: rgba(245, 129, 18, 0.15);
-    padding: 30px 20px;
+    padding: 5px 0px;
     margin: 30px 0px;
 }
 
 .visit h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 20px 0px;
 }
 
@@ -95,13 +92,21 @@
 .visit_wrap {
     background-color: #fff;
     border-radius: 20px;
-    padding-bottom: 20px;
-    max-width: 700px;
-    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px 20px;
+    margin: 30px auto;
 }
 
 
 /* Media Queries */
+
+@media all and (min-width:400px) {
+    .visit_wrap {
+        width: 350px;
+    }
+}
 
 @media all and (min-width:600px) {
     /*Header*/
@@ -110,22 +115,17 @@
     }
     /*Explore together*/
     .about {
-        padding: 50px 40px;
+        padding: 50px 0px;
         margin: 50px 0px;
-    }
-    .about_wrap p {
-        margin: 0px;
-        padding-bottom: 15px;
     }
     .about_wrap {
         width: 450px;
         height: 350px;
         padding: 10px 30px;
-        margin: 0px auto;
     }
     /* Visit */
     .visit {
-        padding: 50px 40px;
+        padding: 50px 0px;
         margin: 50px 0px;
     }
     .visit h2 {
@@ -138,6 +138,9 @@
     .visit_col-2 {
         padding-right: 10px;
         width: 240px;
+    }
+    .visit_wrap {
+        width: 500px;
     }
     .visit_container {
         display: flex;
@@ -152,10 +155,6 @@
         margin-bottom: 50px;
     }
     /*Explore together*/
-    .about {
-        padding: 50px 40px;
-        margin: 50px 0px;
-    }
     .about img {
         display: inherit;
         width: 240px;
@@ -167,8 +166,6 @@
     }
     .about_wrap p {
         font-size: 0.95em;
-        margin: 0px;
-        padding-bottom: 15px;
     }
     .about_wrap {
         flex-direction: row;
@@ -177,7 +174,6 @@
         width: 700px;
         height: 350px;
         padding: 0px;
-        margin: 0px auto;
     }
     /* Visit */
     .visit_col-1 {
@@ -188,6 +184,10 @@
     }
     .visit_col-2 p {
         margin-bottom: 13px;
+    }
+    .visit_wrap {
+        border-radius: 30px;
+        width: 660px;
     }
 }
 

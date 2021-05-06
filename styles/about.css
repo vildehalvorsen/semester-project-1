@@ -1,6 +1,6 @@
 /*Header*/
 
-.about_header h1 {
+h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(43, 167, 218, 0.15);
@@ -54,6 +54,7 @@
 }
 
 .visit h3 {
+    font-family: unit-rounded, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -110,7 +111,7 @@
 
 @media all and (min-width:600px) {
     /*Header*/
-    .about_header h1 {
+    h1 {
         font-size: 1.5em;
     }
     /*Explore together*/
@@ -150,7 +151,7 @@
 
 @media all and (min-width:800px) {
     /*Header*/
-    .about_header h1 {
+    h1 {
         padding: 50px 0px;
         margin-bottom: 50px;
     }

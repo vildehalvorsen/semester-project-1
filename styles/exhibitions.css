@@ -1,0 +1,110 @@
+/*Header*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(43, 167, 218, 0.15);
+    padding: 40px 0px;
+    margin: 0px 0px 30px;
+}
+
+
+/* Exhibition Spaces */
+
+.spaces {
+    background-color: rgba(63, 166, 82, 0.15);
+    text-align: center;
+    padding: 10px 0px 20px;
+    margin: 30px 0px;
+}
+
+.spaces h2 {
+    margin: 0px;
+    padding: 10px 0px 20px;
+}
+
+.spaces img {
+    width: 110px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.spaces h3 {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+    max-width: 100px;
+    min-height: 21px;
+    margin: -4px 0px 0px;
+    padding: 5px;
+}
+
+.spaces_content>div {
+    padding: 5px 10px 20px 0px;
+    margin: 5px 3px;
+}
+
+.spaces_content>div:hover {
+    transform: scale(1.05);
+}
+
+.spaces_content {
+    display: flex;
+    overflow-x: scroll;
+    width: 250px;
+    margin: 0px auto;
+}
+
+
+/*News*/
+
+.news {
+    background-color: rgba(245, 129, 18, 0.15);
+    padding: 10px 0px 30px;
+    margin: 30px 0px;
+}
+
+.news h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 0px;
+}
+
+.news h3 {
+    text-align: center;
+    width: 130px;
+    padding: 6px 0px;
+}
+
+.news img {
+    width: 100px;
+    height: 80px;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+}
+
+.news-text {
+    background-color: #fff;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
+    padding: 0px 10px;
+}
+
+.news p {
+    display: none;
+}
+
+.news-item {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.news-item a {
+    display: flex;
+}
+
+.news-item a:hover {
+    transform: scale(1.05);
+}

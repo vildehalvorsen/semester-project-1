@@ -1,20 +1,3 @@
-/*FONTS*/
-
-
-/* h2 {
-    font-family: industry, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1em;
-}
-
-h3 {
-    font-family: unit-rounded, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-} */
-
-
 /*Header*/
 
 h1 {
@@ -117,7 +100,7 @@ button:hover {
     }
     /* Contact info and form*/
     .contact_container {
-        margin: 40px 0px;
+        margin: 50px 0px;
     }
     .contact_wrap {
         display: flex;
@@ -151,6 +134,9 @@ button:hover {
     textarea {
         margin: 9px 0px;
     }
+    .form_wrap {
+        margin: 0px 20px 0px 40px;
+    }
 }
 
 @media all and (min-width:800px) {
@@ -171,6 +157,9 @@ button:hover {
     input,
     textarea {
         padding: 10px 40px 10px 5px;
+    }
+    .form_wrap {
+        margin: 0px auto;
     }
 }
 

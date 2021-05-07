@@ -33,8 +33,8 @@
 .spaces {
     background-color: rgba(43, 167, 218, 0.15);
     text-align: center;
-    padding: 10px 0px 20px;
-    margin: 20px 0px;
+    padding: 20px 0px 30px;
+    margin: 30px 0px;
 }
 
 .spaces h2 {
@@ -50,10 +50,10 @@
 .spaces h3 {
     text-align: center;
     background-color: #fff;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-    max-width: 100px;
-    min-height: 21px;
+    width: 100px;
+    height: 21px;
     margin: -4px 0px 0px;
     padding: 5px;
 }
@@ -79,8 +79,8 @@
 
 .news {
     background-color: rgba(63, 166, 82, 0.15);
-    padding: 10px 0px 30px;
-    margin: 20px 0px;
+    padding: 20px 0px 40px;
+    margin: 30px 0px;
 }
 
 .news h2 {
@@ -97,14 +97,14 @@
 
 .news img {
     width: 100px;
-    height: 80px;
-    border-radius: 25px 0px 0px 25px;
+    height: 90px;
+    border-radius: 30px 0px 0px 30px;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
 }
 
 .news-text {
     background-color: #fff;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 0px 30px 30px 0px;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
     padding: 0px 10px;
 }
@@ -135,8 +135,8 @@
     background-color: rgba(245, 129, 18, 0.15);
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
-    margin: 20px 0px;
+    padding: 40px 0px;
+    margin: 30px 0px;
 }
 
 .teachers {
@@ -185,10 +185,6 @@
         margin: -75px auto 60px;
     }
     /*Exhibition spaces*/
-    .spaces {
-        padding: 20px 0px;
-        margin: 30px 0px;
-    }
     .spaces_content>div {
         padding-right: 15px;
     }
@@ -196,21 +192,15 @@
         width: 340px;
     }
     /*News*/
-    .news {
-        margin: 30px 0px;
-    }
     .news h3 {
         width: 150px;
         padding: 10px 15px;
     }
     .news img {
         width: 120px;
-        height: 90px;
+        height: 100px;
     }
     /*Other info*/
-    .others {
-        margin: 30px 0px;
-    }
     .teachers {
         padding: 10px;
         margin-right: 10px;
@@ -239,8 +229,18 @@
     .spaces h2 {
         font-size: 1.5em;
     }
+    .spaces img {
+        width: 140px;
+        border-radius: 30px 30px 0px 0px;
+    }
+    .spaces h3 {
+        border-radius: 0px 0px 30px 30px;
+        width: 140px;
+        margin: -4px 0px 0px;
+        padding: 8px 0px;
+    }
     .spaces_content {
-        width: 400px;
+        width: 420px;
     }
     /*News*/
     .news {
@@ -254,7 +254,7 @@
     }
     .news img {
         width: 150px;
-        height: 110px;
+        height: 115px;
     }
     /* .news-text p {
         display: flex;
@@ -301,16 +301,10 @@
     .spaces {
         margin: 50px 0px;
     }
-    .spaces img {
-        width: 140px;
-    }
-    .spaces h3 {
-        max-width: 140px;
-    }
     .spaces_content {
-        overflow: visible;
+        overflow-x: visible;
         justify-content: center;
-        width: 650px;
+        width: auto;
     }
     .spaces_content>div {
         padding-right: 10px;
@@ -363,20 +357,32 @@
     }
 }
 
-@media all and (min-width:1300px) {
+@media all and (min-width:1000px) {
+    .spaces img {
+        width: 160px;
+    }
+    .spaces h3 {
+        width: 160px;
+    }
+    .spaces_content>div {
+        margin: 0px 10px;
+    }
+}
+
+@media all and (min-width: 1500px) {
     /*Exhibition spaces*/
     .spaces {
-        width: 1300px;
+        width: 1500px;
         margin: 50px auto;
     }
     /*News*/
     .news {
-        width: 1300px;
+        width: 1500px;
         margin: 50px auto;
     }
     /*Other info*/
     .others {
-        width: 1300px;
+        width: 1500px;
         margin: 50px auto;
     }
 }

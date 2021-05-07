@@ -17,26 +17,33 @@ h1 {
     margin: 30px 0px;
 }
 
+.about_wrap {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 260px;
+    font-size: 0.9em;
+    padding: 20px;
+    margin: 30px auto;
+}
+
 .about img {
     display: none;
 }
 
-.about_wrap p {
-    margin: 0px;
-    padding-bottom: 15px;
+.about_text h2 {
+    margin-top: 0px;
 }
 
-.about_wrap {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    border-radius: 20px;
+.about_text p {
+    margin: 0px;
+    padding: 0px 0px 15px;
+}
+
+.about_text {
     width: 250px;
-    height: 250px;
-    font-size: 0.9em;
-    padding: 10px 20px;
-    margin: 30px auto;
+    height: 260px;
+    overflow-y: scroll;
+    margin: 0px auto;
 }
 
 
@@ -50,12 +57,12 @@ h1 {
 
 .visit h2 {
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .visit h3 {
     font-family: unit-rounded, sans-serif;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px;
 }
 
 .visit_col-1 {
@@ -92,7 +99,7 @@ h1 {
 
 .visit_wrap {
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -116,29 +123,45 @@ h1 {
     }
     /*Explore together*/
     .about {
-        padding: 50px 0px;
+        padding: 30px 0px;
         margin: 50px 0px;
     }
     .about_wrap {
         width: 450px;
-        height: 350px;
+        height: 380px;
         padding: 10px 30px;
+    }
+    .about_text h2 {
+        margin-top: 10px;
+    }
+    .about_text {
+        width: 440px;
+        height: 350px;
+        overflow-y: visible;
+        padding: 10px;
     }
     /* Visit */
     .visit {
-        padding: 50px 0px;
+        padding: 30px 0px;
         margin: 50px 0px;
     }
     .visit h2 {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
     .visit_col-1 {
         width: 185px;
         padding-left: 10px;
     }
+    .adm {
+        margin-top: 25px;
+    }
     .visit_col-2 {
         padding-right: 10px;
-        width: 240px;
+        width: 210px;
+    }
+    .visit_col-2>div {
+        padding-bottom: 25px;
     }
     .visit_wrap {
         width: 500px;
@@ -146,6 +169,7 @@ h1 {
     .visit_container {
         display: flex;
         justify-content: center;
+        margin-top: 10px;
     }
 }
 
@@ -158,49 +182,51 @@ h1 {
     /*Explore together*/
     .about img {
         display: inherit;
-        width: 240px;
-        height: 350px;
+        width: 255px;
+        height: 380px;
         border-radius: 0px 30px 30px 0px;
     }
-    .about_text {
-        padding: 10px 20px;
-    }
-    .about_wrap p {
-        font-size: 0.95em;
-    }
     .about_wrap {
-        flex-direction: row;
-        overflow: visible;
-        border-radius: 30px;
-        width: 700px;
-        height: 350px;
+        display: flex;
+        width: 750px;
+        height: 380px;
         padding: 0px;
+    }
+    .about_text {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        padding: 15px 25px;
+        margin: 0px;
     }
     /* Visit */
     .visit_col-1 {
         width: 249px;
+        margin-right: 50px;
+    }
+    .adm {
+        margin-top: 15px;
     }
     .visit_col-2 {
         width: 350px;
     }
-    .visit_col-2 p {
-        margin-bottom: 13px;
+    .visit_col-2>div {
+        padding-bottom: 40px;
     }
     .visit_wrap {
-        border-radius: 30px;
         width: 660px;
     }
 }
 
-@media all and (min-width:1300px) {
+@media all and (min-width:1500px) {
     /*Explore together*/
     .about {
-        max-width: 1300px;
+        width: 1500px;
         margin: 50px auto;
     }
     /*Visit*/
     .visit {
-        max-width: 1300px;
+        width: 1500px;
         margin: 50px auto;
     }
 }

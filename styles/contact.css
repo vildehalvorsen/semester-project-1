@@ -100,13 +100,13 @@ button:hover {
     }
     /* Contact info and form*/
     .contact_container {
-        margin: 50px 0px;
+        margin: 40px 0px;
     }
     .contact_wrap {
         display: flex;
         justify-content: center;
         width: 590px;
-        margin: 30px auto;
+        margin: 40px auto;
     }
     /*Contact info*/
     .contact_hours,
@@ -163,10 +163,10 @@ button:hover {
     }
 }
 
-@media all and (min-width:1300px) {
+@media all and (min-width:1500px) {
     /*Contact info and form*/
     .contact_container {
+        width: 1500px;
         margin: 50px auto;
-        width: 1300px;
     }
 }

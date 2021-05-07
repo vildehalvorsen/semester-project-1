@@ -68,7 +68,7 @@
         margin: 30px 0px;
     }
     
-    .spaces h1 {
+    .spaces h2 {
         margin: 0px;
         padding: 10px 0px 20px;
     }
@@ -78,7 +78,7 @@
         border-radius: 20px 20px 0px 0px;
     }
     
-    .spaces h2 {
+    .spaces h3 {
         text-align: center;
         background-color: #fff;
         border-radius: 0px 0px 10px 10px;
@@ -242,19 +242,19 @@
         }
     }
     
-    @media all and (min-width:1300px) {
+    @media all and (min-width:1500px) {
         /* Info */
         .kids_info {
-            width: 1300px;
+            width: 1500px;
             margin: 50px auto;
         }
         /* Young Star Club*/
         .ys_info {
-            width: 1300px;
+            width: 1500px;
             margin: 50px auto;
         }
         .spaces {
-            width: 1300px;
+            width: 1500px;
             margin: 50px auto;
         }
     }

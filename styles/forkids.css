@@ -236,6 +236,9 @@
             font-size: 1.1em;
         }
         /*Exhibition spaces*/
+        .spaces {
+            margin: 50px 0px;
+        }
         .spaces_content {
             overflow-y: visible;
             width: 640px;
@@ -246,11 +249,13 @@
         /* Info */
         .kids_info {
             width: 1500px;
+            padding: 5px 0px;
             margin: 50px auto;
         }
         /* Young Star Club*/
         .ys_info {
             width: 1500px;
+            padding: 5px 0px;
             margin: 50px auto;
         }
         .spaces {

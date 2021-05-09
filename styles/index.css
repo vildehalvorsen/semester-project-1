@@ -358,6 +358,7 @@
 }
 
 @media all and (min-width:1000px) {
+    /* Exhibition spaces */
     .spaces img {
         width: 160px;
     }

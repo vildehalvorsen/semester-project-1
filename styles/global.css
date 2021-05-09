@@ -106,7 +106,8 @@
         min-width: 200px;
     }
     
-    nav li:hover {
+    nav li:hover,
+    .exb-spaces:hover {
         text-decoration: underline;
     }
     

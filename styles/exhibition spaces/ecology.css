@@ -110,10 +110,6 @@ h1 {
         font-size: 1.5em;
         width: 110px;
     }
-    .eco_header {
-        background-size: cover;
-        background-position-y: ;
-    }
     /* Ecology */
     .ecology {
         margin: 40px 0px;
@@ -157,6 +153,7 @@ h1 {
     /* Header */
     .eco_header {
         padding: 50px 0px;
+        background-position-y: center;
     }
     /* Ecology */
     .ecology {

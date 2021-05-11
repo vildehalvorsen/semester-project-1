@@ -1,27 +1,32 @@
 /* Header */
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 16px auto;
     color: #fff;
+    background-color: rgba(110, 130, 79, 0.8);
+    box-shadow: #6e824f 0px 0px 20px 10px;
 }
 
-.cosm_header {
-    background-image: url(/images/header/cosmology_header.jpg);
+.eco_header {
+    background-image: url(/images/header/ecology_header.jpg);
     background-size: cover;
-    background-position-y: bottom;
+    background-position-y: top;
     padding: 30px 0px;
 }
 
 
-/* Cosmology */
+/* Ecology */
 
-.cosmology {
-    background-color: rgba(43, 167, 218, 0.15);
+.ecology {
+    background-color: rgb(63, 166, 82, 0.15);
     margin: 30px 0px;
     padding: 40px 0px;
 }
 
-.cosmology_content {
+.ecology_content {
     background-color: #fff;
     border-radius: 30px;
     padding: 10px;
@@ -29,7 +34,7 @@ h1 {
     margin: 0px auto;
 }
 
-.cosmology_content img {
+.ecology img {
     display: none;
 }
 
@@ -48,7 +53,7 @@ h1 {
     padding: 10px 0px 20px;
 }
 
-.cosmology-1 {
+.ecology-1 {
     display: none;
 }
 
@@ -85,11 +90,11 @@ h1 {
 }
 
 @media all and (min-width:500px) {
-    /* Cosmology */
-    .cosmology {
+    /* Ecology */
+    .ecology {
         padding: 40px 0px;
     }
-    .cosmology_content {
+    .ecology_content {
         padding: 10px 20px;
         width: 350px;
     }
@@ -103,22 +108,27 @@ h1 {
     /* Header */
     h1 {
         font-size: 1.5em;
+        width: 110px;
     }
-    /* Cosmology */
-    .cosmology {
+    .eco_header {
+        background-size: cover;
+        background-position-y: ;
+    }
+    /* Ecology */
+    .ecology {
         margin: 40px 0px;
     }
-    .cosmology_content {
+    .ecology_content {
         display: flex;
         padding: 0px;
         width: 600px;
     }
-    .cosmology_content img {
+    .ecology_content img {
         display: inherit;
         border-radius: 30px 0px 0px 30px;
         width: 180px;
     }
-    .cosmology_text {
+    .ecology_text {
         padding: 0px 20px;
     }
     /*Exhibition spaces*/
@@ -145,17 +155,17 @@ h1 {
 
 @media all and (min-width:800px) {
     /* Header */
-    .cosm_header {
+    .eco_header {
         padding: 50px 0px;
     }
-    /* Cosmology */
-    .cosmology {
+    /* Ecology */
+    .ecology {
         margin: 50px 0px;
     }
-    .cosmology_content {
+    .ecology_content {
         width: 660px;
     }
-    .cosmology_content img {
+    .ecology_content img {
         width: 190px;
     }
     /*Exhibition spaces*/
@@ -180,8 +190,8 @@ h1 {
 }
 
 @media all and (min-width:1500px) {
-    /* Cosmology */
-    .cosmology {
+    /* Ecology */
+    .ecology {
         width: 1500px;
         margin: 50px auto;
     }

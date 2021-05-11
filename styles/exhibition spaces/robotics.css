@@ -1,27 +1,32 @@
 /* Header */
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 16px auto;
     color: #fff;
+    background-color: rgba(59, 102, 111, 0.8);
+    box-shadow: #3b666f 0px 0px 20px 10px;
 }
 
-.cosm_header {
-    background-image: url(/images/header/cosmology_header.jpg);
+.robo_header {
+    background-image: url(/images/header/robotics_header.jpg);
     background-size: cover;
-    background-position-y: bottom;
+    background-position-y: top;
     padding: 30px 0px;
 }
 
 
-/* Cosmology */
+/* Robotics and AI */
 
-.cosmology {
-    background-color: rgba(43, 167, 218, 0.15);
+.robotics {
+    background-color: rgb(43, 167, 218, 0.15);
     margin: 30px 0px;
     padding: 40px 0px;
 }
 
-.cosmology_content {
+.robotics_content {
     background-color: #fff;
     border-radius: 30px;
     padding: 10px;
@@ -29,7 +34,7 @@ h1 {
     margin: 0px auto;
 }
 
-.cosmology_content img {
+.robotics_content img {
     display: none;
 }
 
@@ -48,7 +53,7 @@ h1 {
     padding: 10px 0px 20px;
 }
 
-.cosmology-1 {
+.robotics-1 {
     display: none;
 }
 
@@ -85,11 +90,11 @@ h1 {
 }
 
 @media all and (min-width:500px) {
-    /* Cosmology */
-    .cosmology {
+    /* Robotics and AI */
+    .robotics {
         padding: 40px 0px;
     }
-    .cosmology_content {
+    .robotics_content {
         padding: 10px 20px;
         width: 350px;
     }
@@ -103,22 +108,23 @@ h1 {
     /* Header */
     h1 {
         font-size: 1.5em;
+        width: 370px;
     }
-    /* Cosmology */
-    .cosmology {
+    /* Robotics and AI */
+    .robotics {
         margin: 40px 0px;
     }
-    .cosmology_content {
+    .robotics_content {
         display: flex;
         padding: 0px;
         width: 600px;
     }
-    .cosmology_content img {
+    .robotics_content img {
         display: inherit;
         border-radius: 30px 0px 0px 30px;
         width: 180px;
     }
-    .cosmology_text {
+    .robotics_text {
         padding: 0px 20px;
     }
     /*Exhibition spaces*/
@@ -145,17 +151,17 @@ h1 {
 
 @media all and (min-width:800px) {
     /* Header */
-    .cosm_header {
+    .robo_header {
         padding: 50px 0px;
     }
-    /* Cosmology */
-    .cosmology {
+    /* Robotics and AI */
+    .robotics {
         margin: 50px 0px;
     }
-    .cosmology_content {
+    .robotics_content {
         width: 660px;
     }
-    .cosmology_content img {
+    .robotics_content img {
         width: 190px;
     }
     /*Exhibition spaces*/
@@ -180,8 +186,8 @@ h1 {
 }
 
 @media all and (min-width:1500px) {
-    /* Cosmology */
-    .cosmology {
+    /* Robotics and AI */
+    .robotics {
         width: 1500px;
         margin: 50px auto;
     }

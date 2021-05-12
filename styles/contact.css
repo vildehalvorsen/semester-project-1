@@ -80,6 +80,7 @@ button {
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
     margin: 20px 0px;
+    cursor: pointer;
 }
 
 button:hover {

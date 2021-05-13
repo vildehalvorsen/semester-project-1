@@ -9,41 +9,75 @@ h1 {
 }
 
 
-/* Explore together */
+/* About */
 
 .about {
     background-color: rgba(63, 166, 82, 0.25);
-    padding: 5px 0px;
+    padding: 10px 0px;
     margin: 30px 0px;
 }
 
-.about_wrap {
+.about_1 {
     background-color: #fff;
     border-radius: 30px;
-    width: 260px;
-    font-size: 0.9em;
-    padding: 20px;
+    width: 300px;
+    height: 380px;
     margin: 30px auto;
 }
 
-.about img {
-    display: none;
+.about_img-1 {
+    background-image: url(/images/about-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px 30px 0px 0px;
+    width: 300px;
+    height: 100px;
 }
 
-.about_text h2 {
-    margin-top: 0px;
+.about_text-1 {
+    padding: 10px 10px 10px 15px;
 }
 
-.about_text p {
-    margin: 0px;
-    padding: 0px 0px 15px;
+.about_2 {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    height: 360px;
+    margin: 30px auto;
 }
 
-.about_text {
-    width: 250px;
-    height: 260px;
-    overflow-y: scroll;
-    margin: 0px auto;
+.about_img-2 {
+    background-image: url(/images/about-2.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 30px 30px 0px 0px;
+    width: 300px;
+    height: 100px;
+}
+
+.about_text-2 {
+    padding: 10px 15px;
+}
+
+.about_3 {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    height: 430px;
+    margin: 30px auto;
+}
+
+.about_img-3 {
+    background-image: url(/images/about-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px 30px 0px 0px;
+    width: 300px;
+    height: 100px;
+}
+
+.about_text-3 {
+    padding: 10px 30px 10px 15px;
 }
 
 
@@ -121,24 +155,36 @@ h1 {
     h1 {
         font-size: 1.5em;
     }
-    /*Explore together*/
+    /* About */
     .about {
-        padding: 30px 0px;
         margin: 50px 0px;
     }
-    .about_wrap {
-        width: 450px;
-        height: 380px;
-        padding: 10px 30px;
+    .about_1 {
+        width: 550px;
+        height: 300px;
+        margin: 40px auto;
     }
-    .about_text h2 {
-        margin-top: 10px;
+    .about_img-1 {
+        width: 550px;
     }
-    .about_text {
-        width: 440px;
-        height: 350px;
-        overflow-y: visible;
-        padding: 10px;
+    .about_2 {
+        width: 550px;
+        height: 285px;
+        margin: 40px auto;
+    }
+    .about_img-2 {
+        width: 550px;
+    }
+    .about_3 {
+        width: 550px;
+        height: 320px;
+        margin: 40px auto;
+    }
+    .about_img-3 {
+        width: 550px;
+    }
+    .about_text-3 {
+        padding: 10px 20px 10px 15px;
     }
     /* Visit */
     .visit {
@@ -166,7 +212,7 @@ h1 {
     .visit_wrap {
         width: 500px;
     }
-    .visit_container {
+    .visit_content {
         display: flex;
         justify-content: center;
         margin-top: 10px;
@@ -179,25 +225,51 @@ h1 {
         padding: 70px 0px;
         margin-bottom: 50px;
     }
-    /*Explore together*/
-    .about img {
-        display: inherit;
-        width: 255px;
-        height: 380px;
+    /* About */
+    .about_1 {
+        width: 700px;
+        height: 220px;
+        margin: 50px auto;
+    }
+    .about_img-1 {
+        float: right;
+        width: 200px;
+        height: 220px;
         border-radius: 0px 30px 30px 0px;
     }
-    .about_wrap {
-        display: flex;
-        width: 750px;
-        height: 380px;
-        padding: 0px;
+    .about_text-1 {
+        width: 440px;
+        padding: 10px 30px;
     }
-    .about_text {
-        width: auto;
-        height: auto;
-        flex-direction: row;
-        padding: 15px 25px;
-        margin: 0px;
+    .about_2 {
+        width: 700px;
+        height: 200px;
+        margin: 50px auto;
+    }
+    .about_img-2 {
+        float: right;
+        width: 200px;
+        height: 200px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .about_text-2 {
+        width: 420px;
+        padding: 10px 30px;
+    }
+    .about_3 {
+        width: 700px;
+        height: 250px;
+        margin: 50px auto;
+    }
+    .about_img-3 {
+        float: right;
+        width: 200px;
+        height: 250px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .about_text-3 {
+        width: 420px;
+        padding: 10px 30px;
     }
     /* Visit */
     .visit_col-1 {
@@ -219,7 +291,7 @@ h1 {
 }
 
 @media all and (min-width:1500px) {
-    /*Explore together*/
+    /*About*/
     .about {
         width: 1500px;
         margin: 50px auto;
@@ -230,111 +302,3 @@ h1 {
         margin: 50px auto;
     }
 }
-
-
-/* News 
-
-.news {
-    background-color: rgba(63, 166, 82, 0.15);
-    padding: 20px 0px 40px;
-    margin: 30px 0px;
-}
-
-.news h2 {
-    text-align: center;
-    margin: 0px;
-    padding: 10px 0px 0px;
-}
-
-.news h3 {
-    text-align: center;
-    width: 130px;
-    padding: 6px 0px;
-}
-
-.news img {
-    width: 100px;
-    height: 90px;
-    border-radius: 30px 0px 0px 30px;
-    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-}
-
-.news-text {
-    background-color: #fff;
-    border-radius: 0px 30px 30px 0px;
-    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-    padding: 0px 10px;
-}
-
-.news p {
-    display: none;
-}
-
-.news-item {
-    display: flex;
-    justify-content: center;
-    width: 250px;
-    margin: 20px auto;
-}
-
-.news-item a {
-    display: flex;
-}
-
-.news-item a:hover {
-    transform: scale(1.05);
-}
-
-
-News
-
-.news {
-    background-color: rgba(245, 129, 18, 0.15);
-    padding: 10px 0px 30px;
-    margin: 30px 0px;
-}
-
-.news h2 {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.news-item a {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-    width: 250px;
-    margin: 0px auto 50px;
-}
-
-.news-item a:hover {
-    transform: scale(1.05);
-}
-
-.news img {
-    width: 250px;
-    border-radius: 30px 30px 0px 0px;
-}
-
-.news h3 {
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-}
-
-.news p {
-    display: none;
-    text-align: left;
-    font-size: 0.9em;
-    height: 120px;
-    margin: 0px 0px 10px;
-    padding: 0px 20px 10px;
-}
-
-#news3 p {
-    overflow-y: scroll;
-}
-
-*/

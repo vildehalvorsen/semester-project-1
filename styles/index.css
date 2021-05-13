@@ -174,13 +174,6 @@
             max-width: 80px;
             margin: -75px auto 60px;
         }
-        /*Exhibition spaces*/
-        .spaces_content>div {
-            padding-right: 15px;
-        }
-        .spaces_content {
-            width: 340px;
-        }
         /*Other info*/
         .teachers {
             padding: 10px;
@@ -203,25 +196,23 @@
             max-width: 80px;
             margin: -75px auto 75px;
         }
-        /*Exhibition spaces*/
+        /* Exhibition Spaces */
         .spaces {
+            padding: 20px 0px 30px;
             margin: 40px 0px;
         }
         .spaces h2 {
-            font-size: 1.5em;
+            font-size: 1.3em;
         }
-        .spaces img {
-            width: 140px;
-            border-radius: 30px 30px 0px 0px;
+        .spaces_wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 500px;
+            margin: 0px auto;
         }
-        .spaces h3 {
-            border-radius: 0px 0px 30px 30px;
-            width: 140px;
-            margin: -4px 0px 0px;
-            padding: 8px 0px;
-        }
-        .spaces_content {
-            width: 420px;
+        .spaces_individual {
+            margin: 0px 20px 10px;
         }
         /*News*/
         .news {
@@ -288,24 +279,12 @@
             max-width: 80px;
             margin: -75px auto 85px;
         }
-        /*Exhibition spaces*/
+        /* Exhibition Spaces */
         .spaces {
-            padding-bottom: 50px;
             margin: 50px 0px;
         }
-        .spaces h2 {
-            padding: 20px 0px 50px;
-        }
-        .spaces_content {
-            overflow-x: visible;
-            justify-content: center;
-            width: auto;
-        }
-        .spaces_content>div {
-            padding-right: 10px;
-        }
-        .spaces_content h3 {
-            font-size: 1.2em;
+        .spaces_wrap {
+            width: 750px;
         }
         /*News*/
         .news {
@@ -341,21 +320,8 @@
         }
     }
     
-    @media all and (min-width:1000px) {
-        /* Exhibition spaces */
-        .spaces img {
-            width: 160px;
-        }
-        .spaces h3 {
-            width: 160px;
-        }
-        .spaces_content>div {
-            margin: 0px 10px;
-        }
-    }
-    
     @media all and (min-width: 1500px) {
-        /*Exhibition spaces*/
+        /* Exhibition Spaces */
         .spaces {
             width: 1500px;
             margin: 50px auto;

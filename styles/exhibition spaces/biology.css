@@ -20,7 +20,7 @@ h1 {
 /* Biology and Medicine */
 
 .biology {
-    background-color: rgba(245, 193, 23, 0.15);
+    background-color: rgba(43, 167, 218, 0.25);
     margin: 30px 0px;
     padding: 40px 0px;
 }
@@ -41,7 +41,7 @@ h1 {
 /*Exhibition spaces*/
 
 .spaces {
-    background-color: rgba(245, 129, 18, 0.15);
+    background-color: rgba(245, 129, 18, 0.25);
     text-align: center;
     padding: 20px 0px;
     margin: 30px 0px;

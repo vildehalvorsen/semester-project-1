@@ -3,16 +3,16 @@
 h1 {
     display: flex;
     justify-content: center;
-    background-color: rgba(245, 129, 18, 0.15);
+    background-color: rgba(245, 129, 18, 0.25);
     padding: 40px 0px;
-    margin: 0px 0px 30px;
+    margin: 0px;
 }
 
 
 /* Contact info and form*/
 
 .contact_container {
-    background-color: rgba(43, 167, 218, 0.15);
+    background-color: rgba(43, 167, 218, 0.25);
     padding: 10px 0px;
     margin: 30px 0px;
 }
@@ -73,19 +73,19 @@ form p {
 button {
     font-family: industry, sans-serif;
     font-size: 1em;
-    padding: 10px 20px;
+    border: 1px solid #212a31;
+    background-color: #212a31;
     border-radius: 10px;
-    border: 1px solid #616d93;
-    background-color: #616d93;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
+    padding: 10px 20px;
     margin: 20px 0px;
     cursor: pointer;
 }
 
 button:hover {
-    border: 1px solid #212a31;
-    background-color: #212a31;
+    background-color: #616d93;
+    border: 1px solid #616d93;
     color: #fff;
 }
 
@@ -143,7 +143,6 @@ button:hover {
 @media all and (min-width:800px) {
     /*Header*/
     h1 {
-        font-size: 1.5em;
         padding: 70px 0px;
     }
     /*Contact info and form*/
@@ -160,7 +159,10 @@ button:hover {
         padding: 10px 40px 10px 5px;
     }
     .form_wrap {
-        margin: 0px auto;
+        width: 227px;
+    }
+    button {
+        font-size: 1.2em;
     }
 }
 

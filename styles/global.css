@@ -119,7 +119,8 @@
         display: none;
     }
     
-    .active {
+    .active,
+    .exb-spaces .active {
         text-decoration: underline;
     }
     /*hamburger menu*/

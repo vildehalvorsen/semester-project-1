@@ -1,0 +1,257 @@
+/*Header*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 129, 18, 0.25);
+    padding: 40px 0px;
+    margin: 0px;
+}
+
+
+/* Content */
+
+.content {
+    background-color: rgba(43, 167, 218, 0.25);
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+
+
+/* Support */
+
+.support {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.support_img {
+    background-image: url(/images/support-1.jpg);
+    border-radius: 30px 30px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+}
+
+.support_text {
+    padding: 10px 20px;
+}
+
+
+/* Volunteer */
+
+.volunteer {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.volunteer_img {
+    background-image: url(/images/volunteer-1.jpg);
+    border-radius: 30px 30px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+}
+
+.volunteer_text {
+    padding: 10px 20px;
+}
+
+
+/* Internship */
+
+.internship {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.internship_img {
+    background-image: url(/images/internship-1.jpg);
+    border-radius: 30px 30px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+}
+
+.internship_text {
+    padding: 10px 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/* Contact button */
+
+.contact_btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.contact_btn a {
+    font-family: industry, sans-serif;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #212a31;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
+}
+
+.contact_btn a:hover {
+    background-color: #616d93;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width:600px) {
+    /*Header*/
+    h1 {
+        font-size: 1.5em;
+    }
+    /* Content */
+    .content {
+        margin: 40px 0px;
+    }
+    /* Support */
+    .support {
+        width: 550px;
+        height: 290px;
+        margin: 40px auto;
+    }
+    .support_img {
+        background-image: url(/images/support-2.jpg);
+        border-radius: 0px 30px 30px 0px;
+        float: right;
+        width: 130px;
+        height: 290px;
+    }
+    .support_text {
+        width: 400px;
+    }
+    .support_text p {
+        padding-right: 30px;
+    }
+    /* Volunteer */
+    .volunteer {
+        width: 550px;
+        height: 330px;
+        margin: 40px auto;
+    }
+    .volunteer_img {
+        background-image: url(/images/volunteer-2.jpg);
+        border-radius: 0px 30px 30px 0px;
+        float: right;
+        width: 130px;
+        height: 330px;
+    }
+    .volunteer_text {
+        width: 400px;
+    }
+    .volunteer_text p {
+        padding-right: 30px;
+    }
+    /* Internship */
+    .internship {
+        width: 550px;
+        height: 300px;
+        margin: 40px auto;
+    }
+    .internship_img {
+        background-image: url(/images/internship-2.jpg);
+        border-radius: 0px 30px 30px 0px;
+        float: right;
+        width: 130px;
+        height: 300px;
+    }
+    .internship_text {
+        width: 400px;
+    }
+    .internship_text p {
+        padding-right: 30px;
+    }
+}
+
+@media all and (min-width:800px) {
+    /*Header*/
+    h1 {
+        padding: 70px 0px;
+    }
+    /* Content */
+    .content {
+        margin: 50px 0px;
+    }
+    /* Support */
+    .support {
+        width: 610px;
+        height: 250px;
+        margin: 50px auto;
+    }
+    .support_img {
+        height: 250px;
+    }
+    .support_text {
+        width: 430px;
+    }
+    .support_text p {
+        padding-right: 0px;
+    }
+    /* Volunteer */
+    .volunteer {
+        width: 610px;
+        height: 300px;
+        margin: 50px auto;
+    }
+    .volunteer_img {
+        height: 300px;
+    }
+    .volunteer_text {
+        width: 440px;
+    }
+    .volunteer_text p {
+        padding-right: 0px;
+    }
+    /* Internship */
+    .internship {
+        width: 610px;
+        height: 300px;
+        margin: 50px auto;
+    }
+    .internship_img {
+        height: 300px;
+    }
+    .internship_text {
+        width: 430px;
+    }
+    .internship_text p {
+        padding-right: 0px;
+    }
+    /* Contact button */
+    .contact_btn a {
+        font-size: 1.2em;
+        padding: 10px 40px;
+    }
+    .contact_btn {
+        margin-bottom: 100px;
+    }
+}
+
+@media all and (min-width:1500px) {
+    /* Content */
+    .content {
+        width: 1500px;
+        margin: 50px auto;
+    }
+}

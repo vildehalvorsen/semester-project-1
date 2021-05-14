@@ -68,7 +68,7 @@
     /*NAVIGATION BAR*/
     
     header {
-        background-color: #fff;
+        background-color: rgb(0, 110, 159);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -128,8 +128,10 @@
     header label {
         display: flex;
         align-items: center;
-        font-family: pinot-grigio-modern, sans-serif;
+        font-family: "pinot-grigio-modern", sans-serif;
         font-size: 1em;
+        font-weight: 700;
+        font-style: normal;
         cursor: pointer;
     }
     

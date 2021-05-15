@@ -4,27 +4,35 @@
         min-height: 100vh;
         margin: 0px;
     }
+    
+    a {
+        color: #212a31;
+        text-decoration: none;
+    }
     /* FONTS*/
     
     h1 {
-        font-family: unit-rounded, sans-serif;
-        font-weight: 500;
+        font-family: "pinot-grigio-modern", sans-serif;
+        font-weight: 700;
         font-style: normal;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        color: #212a31;
     }
     
     h2 {
-        font-family: unit-rounded, sans-serif;
-        font-weight: 500;
+        font-family: "pinot-grigio-modern", sans-serif;
+        font-weight: 700;
         font-style: normal;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        color: #212a31;
     }
     
     h3 {
-        font-family: industry, sans-serif;
+        font-family: "menco", sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: 1em;
+        font-size: 1.4em;
+        color: #212a31;
     }
     
     p,
@@ -32,8 +40,93 @@
         font-family: "franklin-gothic-urw", sans-serif;
         font-weight: 400;
         font-style: normal;
+        color: #212a31;
     }
-    /*footer*/
+    /*NAVIGATION BAR*/
+    
+    header {
+        background-color: rgb(0, 110, 159);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 10000;
+        min-width: 280px;
+    }
+    
+    header img {
+        margin: 5px 5px 5px 15px;
+        width: 60%;
+    }
+    /*nav links*/
+    
+    nav {
+        display: none;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        top: 26px;
+        background-color: rgb(0, 110, 159);
+        border-radius: 0px 0px 30px 30px;
+        padding: 0px 0px 0px 30px;
+        margin-top: 50px;
+    }
+    
+    nav a {
+        color: #fff;
+    }
+    
+    nav li {
+        display: block;
+        font-family: "unit-rounded", sans-serif;
+        font-size: 1.1em;
+        padding-bottom: 20px;
+        min-width: 200px;
+    }
+    
+    nav li:hover,
+    .exb-spaces:hover {
+        text-decoration: underline #fff;
+    }
+    
+    nav ul {
+        padding: 0px;
+    }
+    
+    .exb-spaces {
+        display: none;
+    }
+    
+    .active,
+    .exb-spaces .active {
+        text-decoration: underline #fff;
+    }
+    /*hamburger menu*/
+    
+    header label {
+        display: flex;
+        align-items: center;
+        font-family: "pinot-grigio-modern", sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    #hamburger-menu {
+        display: none;
+    }
+    
+    #hamburger-menu:checked~nav {
+        display: block;
+    }
+    
+    .fa-bars {
+        font-size: 1.5em;
+        margin: 0px 15px 0px 10px;
+        cursor: pointer;
+    }
+    /* Footer */
     
     footer {
         color: #212a31;
@@ -64,89 +157,6 @@
     
     footer>section {
         padding: 0px 15px;
-    }
-    /*NAVIGATION BAR*/
-    
-    header {
-        background-color: rgb(0, 110, 159);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 10000;
-        min-width: 280px;
-    }
-    
-    header img {
-        margin: 5px 5px 5px 15px;
-        width: 60%;
-    }
-    /*nav links*/
-    
-    nav {
-        display: none;
-        position: absolute;
-        right: 0px;
-        left: 0px;
-        top: 26px;
-        background-color: #fff;
-        padding: 0px 0px 0px 30px;
-        margin-top: 50px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #212a31;
-    }
-    
-    nav li {
-        display: block;
-        font-family: unit-rounded, sans-serif;
-        font-size: 1.1em;
-        padding-bottom: 20px;
-        min-width: 200px;
-    }
-    
-    nav li:hover,
-    .exb-spaces:hover {
-        text-decoration: underline;
-    }
-    
-    nav ul {
-        padding: 0px;
-    }
-    
-    .exb-spaces {
-        display: none;
-    }
-    
-    .active,
-    .exb-spaces .active {
-        text-decoration: underline;
-    }
-    /*hamburger menu*/
-    
-    header label {
-        display: flex;
-        align-items: center;
-        font-family: "pinot-grigio-modern", sans-serif;
-        font-size: 1em;
-        font-weight: 700;
-        font-style: normal;
-        cursor: pointer;
-    }
-    
-    #hamburger-menu {
-        display: none;
-    }
-    
-    #hamburger-menu:checked~nav {
-        display: block;
-    }
-    
-    .fa-bars {
-        font-size: 1.5em;
-        margin: 0px 15px 0px 10px;
-        cursor: pointer;
     }
     
     @media all and (min-width: 330px) {

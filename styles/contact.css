@@ -3,7 +3,7 @@
 h1 {
     display: flex;
     justify-content: center;
-    background-color: rgba(245, 129, 18, 0.25);
+    background-color: rgba(43, 167, 218, 0.25);
     padding: 40px 0px;
     margin: 0px;
 }
@@ -11,8 +11,15 @@ h1 {
 
 /* Contact info and form*/
 
+h3 {
+    font-family: "menco", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
 .contact_container {
-    background-color: rgba(43, 167, 218, 0.25);
+    background-color: rgb(63, 166, 82, 0.25);
     padding: 10px 0px;
     margin: 30px 0px;
 }
@@ -71,11 +78,13 @@ form p {
 }
 
 button {
-    font-family: industry, sans-serif;
-    font-size: 1em;
+    font-family: "menco", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
     border: 1px solid #212a31;
-    background-color: #212a31;
     border-radius: 10px;
+    background-color: #212a31;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
     padding: 10px 20px;
@@ -84,9 +93,8 @@ button {
 }
 
 button:hover {
-    background-color: #616d93;
-    border: 1px solid #616d93;
-    color: #fff;
+    background-color: #006e9f;
+    border: 1px solid #006e9f;
 }
 
 .submit_btn {
@@ -97,7 +105,7 @@ button:hover {
 @media all and (min-width:600px) {
     /*Header*/
     h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     /* Contact info and form*/
     .contact_container {
@@ -105,7 +113,7 @@ button:hover {
     }
     .contact_wrap {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         width: 590px;
         margin: 40px auto;
     }
@@ -123,12 +131,15 @@ button:hover {
         margin: 0px;
     }
     .contact_hours h2 {
-        font-size: 1em;
+        font-family: "menco", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1em;
         margin: 10px 0px;
     }
     .contact_info p {
         font-size: 0.9em;
-        margin: 8px 0px;
+        margin: 3px 0px;
     }
     /*Contact form*/
     input,
@@ -136,7 +147,7 @@ button:hover {
         margin: 9px 0px;
     }
     .form_wrap {
-        margin: 0px 20px 0px 40px;
+        margin: 0px;
     }
 }
 
@@ -148,10 +159,18 @@ button:hover {
     /*Contact info and form*/
     .contact_container {
         margin: 50px 0px;
+        padding: 30px 0px;
     }
     .contact_wrap {
-        width: 650px;
+        width: 770px;
         margin: 40px auto;
+    }
+    .contact_info h2 {
+        width: 340px;
+    }
+    .contact_info p {
+        font-size: 1em;
+        margin: 5px 0px;
     }
     /*Contact form*/
     input,
@@ -160,9 +179,6 @@ button:hover {
     }
     .form_wrap {
         width: 227px;
-    }
-    button {
-        font-size: 1.2em;
     }
 }
 

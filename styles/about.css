@@ -11,6 +11,13 @@ h1 {
 
 /* About */
 
+h2 {
+    font-family: "menco", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
 .about {
     background-color: rgba(63, 166, 82, 0.25);
     padding: 10px 0px;
@@ -21,7 +28,7 @@ h1 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 380px;
+    height: 370px;
     margin: 30px auto;
 }
 
@@ -35,14 +42,14 @@ h1 {
 }
 
 .about_text-1 {
-    padding: 10px 10px 10px 15px;
+    padding: 0px 10px 0px 15px;
 }
 
 .about_2 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 360px;
+    height: 350px;
     margin: 30px auto;
 }
 
@@ -56,14 +63,14 @@ h1 {
 }
 
 .about_text-2 {
-    padding: 10px 15px;
+    padding: 0px 15px;
 }
 
 .about_3 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 430px;
+    height: 440px;
     margin: 30px auto;
 }
 
@@ -89,48 +96,6 @@ h1 {
     margin: 30px 0px;
 }
 
-.visit h2 {
-    text-align: center;
-    padding: 10px 0px;
-}
-
-.visit h3 {
-    font-family: unit-rounded, sans-serif;
-    margin: 0px 0px 10px;
-}
-
-.visit_col-1 {
-    width: 249px;
-    margin: 0px auto;
-}
-
-.visit_col-1 p {
-    font-size: 0.9em;
-    margin: 3px 0px;
-}
-
-.adm p {
-    margin: 15px 0px;
-}
-
-.visit_col-1>div {
-    padding-bottom: 15px;
-}
-
-.visit_col-2 {
-    width: 248px;
-    margin: 0px auto;
-}
-
-.visit_col-2 p {
-    font-size: 0.9em;
-    margin: 0px;
-}
-
-.visit_col-2>div {
-    padding-bottom: 15px;
-}
-
 .visit_wrap {
     background-color: #fff;
     border-radius: 30px;
@@ -141,19 +106,63 @@ h1 {
     margin: 30px auto;
 }
 
+.visit h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+
+.visit h3 {
+    font-size: 1.2em;
+    margin: 10px 0px 5px;
+}
+
+.visit_col-1 p {
+    width: 249px;
+    font-size: 0.9em;
+    margin: 3px 0px;
+}
+
+.adm p {
+    margin: 15px 0px 0px;
+}
+
+.visit_col-1>div,
+.visit_col-2>div {
+    padding-bottom: 15px;
+}
+
+.visit_col-2 p {
+    width: 248px;
+    font-size: 0.9em;
+    margin: 3px 0px;
+}
+
 
 /* Media Queries */
 
 @media all and (min-width:400px) {
+    /* Visit */
     .visit_wrap {
         width: 350px;
+        padding-bottom: 20px;
+    }
+    .visit_content {
+        padding-left: 15px;
+    }
+    .visit_content p {
+        width: 310px;
+        font-size: 1em;
+    }
+    .visit span {
+        display: block;
     }
 }
 
 @media all and (min-width:600px) {
     /*Header*/
     h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     /* About */
     .about {
@@ -161,7 +170,7 @@ h1 {
     }
     .about_1 {
         width: 550px;
-        height: 300px;
+        height: 290px;
         margin: 40px auto;
     }
     .about_img-1 {
@@ -170,7 +179,7 @@ h1 {
     }
     .about_2 {
         width: 550px;
-        height: 285px;
+        height: 270px;
         margin: 40px auto;
     }
     .about_img-2 {
@@ -193,31 +202,22 @@ h1 {
         padding: 30px 0px;
         margin: 50px 0px;
     }
-    .visit h2 {
-        font-size: 1.2em;
-        margin: 10px 0px;
-    }
-    .visit_col-1 {
-        width: 185px;
-        padding-left: 10px;
-    }
-    .adm {
-        margin-top: 25px;
-    }
-    .visit_col-2 {
-        padding-right: 10px;
-        width: 210px;
-    }
-    .visit_col-2>div {
-        padding-bottom: 25px;
-    }
     .visit_wrap {
         width: 500px;
     }
     .visit_content {
         display: flex;
-        justify-content: center;
-        margin-top: 10px;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .visit_col-1 p {
+        width: 205px;
+    }
+    .adm {
+        margin-top: 27px;
+    }
+    .visit_col-2 p {
+        width: 220px;
     }
 }
 
@@ -264,15 +264,14 @@ h1 {
     }
     .about_3 {
         width: 700px;
-        height: 250px;
+        height: 260px;
         margin: 50px auto;
     }
     .about_img-3 {
         background-image: url(/images/about-3-2.jpg);
-        background-position-y: 20%;
         float: right;
         width: 200px;
-        height: 250px;
+        height: 260px;
         border-radius: 0px 30px 30px 0px;
     }
     .about_text-3 {
@@ -280,21 +279,20 @@ h1 {
         padding: 10px 30px;
     }
     /* Visit */
-    .visit_col-1 {
-        width: 249px;
-        margin-right: 50px;
-    }
-    .adm {
-        margin-top: 15px;
-    }
-    .visit_col-2 {
-        width: 350px;
-    }
-    .visit_col-2>div {
-        padding-bottom: 40px;
+    .visit {
+        margin: 50px auto;
     }
     .visit_wrap {
-        width: 660px;
+        width: 700px;
+        padding: 20px 0px;
+    }
+    .visit_col-1 p,
+    .visit_col-2 p {
+        width: 270px;
+    }
+    .visit_col-1,
+    .visit_col-2>div {
+        padding-bottom: 10px;
     }
 }
 

@@ -11,6 +11,14 @@
         background-position-y: top;
         padding: 30px 0px;
     }
+    /* Content */
+    
+    h2 {
+        font-family: "menco", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.3em;
+    }
     /* Evolution */
     
     .evolution {
@@ -19,21 +27,23 @@
         padding: 40px 0px;
     }
     
-    .evolution_content {
-        background-color: #fff;
-        border-radius: 30px;
-        padding: 10px;
-        width: 290px;
+    .evolution_text {
+        width: 250px;
+        padding: 10px 0px;
         margin: 0px auto;
     }
     
-    .evolution_content img {
-        display: none;
+    .evolution_content {
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 0px;
+        width: 290px;
+        margin: 0px auto;
     }
     /*Exhibition spaces*/
     
     .spaces {
-        background-color: rgba(245, 129, 18, 0.15);
+        background-color: rgba(245, 129, 18, 0.25);
         text-align: center;
         padding: 20px 0px;
         margin: 30px 0px;
@@ -55,6 +65,7 @@
     
     .spaces h3 {
         text-align: center;
+        font-size: 1.1em;
         background-color: #fff;
         border-radius: 0px 0px 20px 20px;
         box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
@@ -85,8 +96,10 @@
         .evolution {
             padding: 40px 0px;
         }
+        .evolution_text {
+            width: 300px;
+        }
         .evolution_content {
-            padding: 10px 20px;
             width: 350px;
         }
         /* Exhibition spaces */
@@ -98,31 +111,31 @@
     @media all and (min-width:600px) {
         /* Header */
         h1 {
-            font-size: 1.5em;
+            font-size: 2em;
         }
         /* Evolution */
         .evolution {
+            padding: 50px 0px;
             margin: 40px 0px;
         }
         .evolution_content {
             display: flex;
             padding: 0px;
-            width: 600px;
+            width: 580px;
+            height: 340px;
         }
-        .evolution_content img {
-            display: inherit;
+        .evolution_img {
+            background-image: url(/images/exhibition-spaces/2-evolution-2.jpg);
+            background-size: cover;
             border-radius: 30px 0px 0px 30px;
-            width: 180px;
+            width: 200px;
         }
         .evolution_text {
-            padding: 0px 20px;
+            width: 330px;
         }
         /*Exhibition spaces*/
         .spaces {
             margin: 40px 0px;
-        }
-        .spaces h2 {
-            font-size: 1.5em;
         }
         .spaces img {
             width: 140px;
@@ -146,16 +159,19 @@
         }
         /* Evolution */
         .evolution {
+            padding: 70px 0px;
             margin: 50px 0px;
         }
         .evolution_content {
             width: 660px;
+            height: 300px;
         }
-        .evolution_content img {
-            width: 190px;
+        .evolution_text {
+            width: 410px;
         }
         /*Exhibition spaces*/
         .spaces {
+            padding: 30px 0px;
             margin: 50px 0px;
         }
         .spaces_content {
@@ -171,11 +187,16 @@
     @media all and (min-width:1000px) {
         /* Exhibition spaces */
         .spaces_content>div {
-            margin: 0px 10px;
+            padding-right: 20px;
         }
     }
     
     @media all and (min-width:1500px) {
+        /* Header */
+        .evo_header {
+            width: 1500px;
+            margin: 0px auto;
+        }
         /* Evolution */
         .evolution {
             width: 1500px;

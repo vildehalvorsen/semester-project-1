@@ -3,10 +3,11 @@
 h1 {
     display: flex;
     justify-content: center;
-    width: 180px;
+    width: 240px;
     margin: 16px auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: #fff 0px 0px 15px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: #fff 0px 0px 30px 10px;
+    border-radius: 30px;
 }
 
 .bio_header {
@@ -14,6 +15,16 @@ h1 {
     background-size: cover;
     background-position-y: top;
     padding: 30px 0px;
+}
+
+
+/* Content */
+
+h2 {
+    font-family: "menco", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
 }
 
 
@@ -25,16 +36,18 @@ h1 {
     padding: 40px 0px;
 }
 
-.biology_content {
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 10px;
-    width: 290px;
+.biology_text {
+    width: 250px;
+    padding: 10px 0px;
     margin: 0px auto;
 }
 
-.biology_content img {
-    display: none;
+.biology_content {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 0px;
+    width: 290px;
+    margin: 0px auto;
 }
 
 
@@ -63,6 +76,7 @@ h1 {
 
 .spaces h3 {
     text-align: center;
+    font-size: 1.1em;
     background-color: #fff;
     border-radius: 0px 0px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
@@ -93,8 +107,10 @@ h1 {
     .biology {
         padding: 40px 0px;
     }
+    .biology_text {
+        width: 300px;
+    }
     .biology_content {
-        padding: 10px 20px;
         width: 350px;
     }
     /* Exhibition spaces */
@@ -106,32 +122,33 @@ h1 {
 @media all and (min-width:600px) {
     /* Header */
     h1 {
-        font-size: 1.5em;
-        width: 230px;
+        font-size: 2em;
+        background-color: rgba(255, 255, 255, 0.75);
+        width: 320px;
     }
     /* Biology and Medicine*/
     .biology {
+        padding: 50px 0px;
         margin: 40px 0px;
     }
     .biology_content {
         display: flex;
         padding: 0px;
-        width: 600px;
+        width: 580px;
+        height: ;
     }
-    .biology_content img {
-        display: inherit;
+    .biology_img {
+        background-image: url(/images/exhibition-spaces/3-biomedicine-2.jpg);
+        background-size: cover;
         border-radius: 30px 0px 0px 30px;
-        width: 180px;
+        width: 200px;
     }
     .biology_text {
-        padding: 0px 20px;
+        width: 350px;
     }
     /*Exhibition spaces*/
     .spaces {
         margin: 40px 0px;
-    }
-    .spaces h2 {
-        font-size: 1.5em;
     }
     .spaces img {
         width: 140px;
@@ -155,16 +172,18 @@ h1 {
     }
     /* Biology and Medicine */
     .biology {
+        padding: 70px 0px;
         margin: 50px 0px;
     }
     .biology_content {
         width: 660px;
     }
-    .biology_content img {
-        width: 190px;
+    .biology_text {
+        width: 410px;
     }
     /*Exhibition spaces*/
     .spaces {
+        padding: 30px 0px;
         margin: 50px 0px;
     }
     .spaces_content {
@@ -180,11 +199,16 @@ h1 {
 @media all and (min-width:1000px) {
     /* Exhibition spaces */
     .spaces_content>div {
-        margin: 0px 10px;
+        padding-right: 20px;
     }
 }
 
 @media all and (min-width:1500px) {
+    /* Header */
+    .bio_header {
+        width: 1500px;
+        margin: 0px auto;
+    }
     /* Biology and Medicine */
     .biology {
         width: 1500px;

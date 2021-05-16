@@ -183,6 +183,10 @@ button:hover {
 }
 
 @media all and (min-width:1500px) {
+    h1 {
+        width: 1500px;
+        margin: 0px auto;
+    }
     /*Contact info and form*/
     .contact_container {
         width: 1500px;

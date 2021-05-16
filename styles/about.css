@@ -160,7 +160,7 @@ h2 {
 }
 
 @media all and (min-width:600px) {
-    /*Header*/
+    /* Header */
     h1 {
         font-size: 2em;
     }
@@ -222,12 +222,14 @@ h2 {
 }
 
 @media all and (min-width:800px) {
-    /*Header*/
+    /* Header */
     h1 {
         padding: 70px 0px;
-        margin-bottom: 50px;
     }
     /* About */
+    h2 {
+        font-size: 1.4em;
+    }
     .about_1 {
         width: 700px;
         height: 220px;
@@ -297,12 +299,17 @@ h2 {
 }
 
 @media all and (min-width:1500px) {
-    /*About*/
+    /* Header */
+    h1 {
+        width: 1500px;
+        margin: 0px auto;
+    }
+    /* Abou t*/
     .about {
         width: 1500px;
         margin: 50px auto;
     }
-    /*Visit*/
+    /* Visit */
     .visit {
         width: 1500px;
         margin: 50px auto;

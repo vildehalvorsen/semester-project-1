@@ -38,6 +38,15 @@ h2 {
     padding: 40px 0px;
 }
 
+.robotics_img {
+    background-image: url(/images/exhibition-spaces/4-roboticsai-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+    width: 290px;
+    height: 100px;
+}
+
 .robotics_text {
     width: 260px;
     padding: 10px 0px;
@@ -109,6 +118,9 @@ h2 {
     .robotics {
         padding: 40px 0px;
     }
+    .robotics_img {
+        width: 360px;
+    }
     .robotics_text {
         width: 310px;
     }
@@ -138,10 +150,9 @@ h2 {
         width: 580px;
     }
     .robotics_img {
-        background-image: url(/images/exhibition-spaces/4-roboticsai-2.jpg);
-        background-size: cover;
         border-radius: 30px 0px 0px 30px;
         width: 200px;
+        height: auto;
     }
     .robotics_text {
         width: 350px;

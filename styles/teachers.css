@@ -1,171 +1,178 @@
-/*Header*/
-
-h1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(43, 167, 218, 0.25);
-    padding: 40px 0px;
-    margin: 0px;
-}
-
-
-/* Teachers and researchers */
-
-.content {
-    background-color: rgb(63, 166, 82, 0.25);
-    padding: 10px 0px;
-    margin: 30px 0px;
-}
-
-.content h2 {
-    font-family: "menco", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.3em;
-    margin: 5px 0px;
-}
-
-.teachers,
-.researchers {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    margin: 30px auto;
-}
-
-.teachers_text,
-.researchers_text {
-    padding: 10px 20px;
-}
-
-.teacher_img {
-    background-image: url(/images/teacher-2.jpg);
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 190px;
-}
-
-.reasearchers_img {
-    background-image: url(/images/researcher-2.jpg);
-    background-size: cover;
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 190px;
-}
-
-
-/* Contact button */
-
-.contact_btn {
-    display: flex;
-    justify-content: center;
-    margin: 50px auto;
-}
-
-.contact_btn a {
-    font-family: "menco", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2em;
-    border-radius: 10px;
-    background-color: #212a31;
-    color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
-    padding: 10px 20px;
-}
-
-.contact_btn a:hover {
-    background-color: #006e9f;
-}
-
-
-/* Media Queries */
-
-@media all and (min-width:600px) {
     /*Header*/
+    
     h1 {
-        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(43, 167, 218, 0.25);
+        padding: 40px 0px;
+        margin: 0px;
     }
     /* Teachers and researchers */
+    
     .content {
-        margin: 40px 0px;
-    }
-    .teachers,
-    .researchers {
-        width: 400px;
-        margin: 40px auto;
-    }
-    .teacher_img,
-    .reasearchers_img {
-        width: 400px;
-    }
-    /* Contact button */
-    .contact_btn a {
-        padding: 10px 40px;
-    }
-}
-
-@media all and (min-width:800px) {
-    /*Header*/
-    h1 {
-        padding: 70px 0px;
-    }
-    /* Teachers and researchers */
-    .content {
+        background-color: rgb(63, 166, 82, 0.25);
+        padding: 10px 0px;
         margin: 50px 0px;
     }
+    
     .content h2 {
+        font-family: "menco", sans-serif;
+        font-weight: 500;
+        font-style: normal;
         font-size: 1.4em;
-        margin: 10px 0px;
+        margin: 5px 0px;
     }
-    .content>div {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    
     .teachers {
-        height: 275px;
-        width: 600px;
+        background-color: #fff;
+        border-radius: 30px;
+        width: 300px;
+        height: 650px;
         margin: 50px auto;
     }
-    .teacher_img {
-        background-image: url(/images/teacher-1.jpg);
-        background-size: cover;
-        border-radius: 0px 30px 30px 0px;
-        width: 200px;
-        height: 275px;
-    }
+    
     .researchers {
-        height: 260px;
-        width: 600px;
+        background-color: #fff;
+        border-radius: 30px;
+        width: 300px;
+        height: 640px;
         margin: 50px auto;
     }
-    .reasearchers_img {
-        background-image: url(/images/researcher-1.jpg);
-        border-radius: 0px 30px 30px 0px;
-        height: 260px;
+    
+    .teachers_text,
+    .researchers_text {
+        height: auto;
+        padding: 20px;
     }
-    .teachers_text p,
-    .researchers_text p {
-        width: 390px;
+    
+    .teacher_img {
+        background-image: url(/images/teacher-2.jpg);
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 190px;
+    }
+    
+    .reasearchers_img {
+        background-image: url(/images/researcher-2.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 190px;
     }
     /* Contact button */
-    .contact_btn a {
-        padding: 10px 40px;
-    }
+    
     .contact_btn {
-        margin-bottom: 100px;
-    }
-}
-
-@media all and (min-width:1500px) {
-    /*Header*/
-    h1 {
-        width: 1500px;
-        margin: 0px auto;
-    }
-    /* Teachers and researchers */
-    .content {
-        width: 1500px;
+        display: flex;
+        justify-content: center;
         margin: 50px auto;
     }
-}
+    
+    .contact_btn a {
+        font-family: "menco", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2em;
+        border-radius: 10px;
+        background-color: #212a31;
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
+        padding: 10px 20px;
+    }
+    
+    .contact_btn a:hover {
+        background-color: #006e9f;
+    }
+    /* Media Queries */
+    
+    @media all and (min-width:600px) {
+        /*Header*/
+        h1 {
+            font-size: 2em;
+        }
+        /* Teachers and researchers */
+        .content {
+            margin: 80px 0px;
+        }
+        .teachers {
+            width: 500px;
+            height: 520px;
+            margin: 50px auto;
+        }
+        .researchers {
+            width: 500px;
+            height: 500px;
+            margin: 50px auto;
+        }
+        .teacher_img,
+        .reasearchers_img {
+            width: 500px;
+        }
+        /* Contact button */
+        .contact_btn a {
+            padding: 10px 40px;
+        }
+    }
+    
+    @media all and (min-width:800px) {
+        /*Header*/
+        h1 {
+            padding: 70px 0px;
+        }
+        /* Teachers and researchers */
+        .content h2 {
+            font-size: 1.4em;
+            margin: 10px 0px;
+        }
+        .content>div {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .teachers {
+            width: 600px;
+            height: 360px;
+            margin: 50px auto;
+        }
+        .teacher_img {
+            background-image: url(/images/teacher-1.jpg);
+            background-position: center;
+            background-size: cover;
+            border-radius: 0px 30px 30px 0px;
+            width: 200px;
+            height: 360px;
+        }
+        .researchers {
+            width: 600px;
+            height: 340px;
+            margin: 50px auto;
+        }
+        .reasearchers_img {
+            background-image: url(/images/researcher-1.jpg);
+            border-radius: 0px 30px 30px 0px;
+            height: 340px;
+        }
+        .teachers_text p,
+        .researchers_text p {
+            width: 390px;
+        }
+        /* Contact button */
+        .contact_btn a {
+            padding: 10px 40px;
+        }
+        .contact_btn {
+            margin-bottom: 100px;
+        }
+    }
+    
+    @media all and (min-width:1500px) {
+        /*Header*/
+        h1 {
+            width: 1500px;
+            margin: 0px auto;
+        }
+        /* Teachers and researchers */
+        .content {
+            width: 1500px;
+            margin: 100px auto;
+        }
+    }

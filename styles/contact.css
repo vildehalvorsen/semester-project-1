@@ -11,6 +11,10 @@ h1 {
 
 /* Contact info and form*/
 
+h2 {
+    margin: 0px;
+}
+
 h3 {
     font-family: "menco", sans-serif;
     font-weight: 500;
@@ -20,12 +24,8 @@ h3 {
 
 .contact_container {
     background-color: rgb(63, 166, 82, 0.25);
-    padding: 10px 0px;
-    margin: 30px 0px;
-}
-
-.contact_container h2 {
-    margin: 0px;
+    padding: 20px 0px;
+    margin: 50px 0px;
 }
 
 
@@ -46,7 +46,7 @@ h3 {
 /*Contact form*/
 
 .form_wrap {
-    width: 208px;
+    width: 228px;
     margin: 0px auto;
 }
 
@@ -59,15 +59,15 @@ textarea {
     font-family: "franklin-gothic-urw", sans-serif;
     font-size: 1em;
     color: #212a31;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #212a31;
-    padding: 10px 20px 10px 5px;
+    width: 221px;
+    padding: 10px 0px 10px 5px;
     margin: 8px 0px;
 }
 
 textarea {
-    height: 100px;
-    width: 180px;
+    height: 150px;
     margin-bottom: 0px;
 }
 
@@ -109,19 +109,23 @@ button:hover {
     }
     /* Contact info and form*/
     .contact_container {
-        margin: 40px 0px;
+        margin: 80px 0px;
     }
     .contact_wrap {
         display: flex;
         justify-content: space-around;
         width: 590px;
-        margin: 40px auto;
+        margin: 50px auto;
     }
     /*Contact info*/
     .contact_hours,
     .contact_apply {
         display: inherit;
         padding: 10px 0px;
+    }
+    .contact_info p {
+        font-size: 1.1em;
+        margin: 5px 0px;
     }
     .contact_apply span {
         font-weight: bolder;
@@ -134,12 +138,8 @@ button:hover {
         font-family: "menco", sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: 1.1em;
+        font-size: 1.3em;
         margin: 10px 0px;
-    }
-    .contact_info p {
-        font-size: 0.9em;
-        margin: 3px 0px;
     }
     /*Contact form*/
     input,
@@ -158,27 +158,25 @@ button:hover {
     }
     /*Contact info and form*/
     .contact_container {
-        margin: 50px 0px;
         padding: 30px 0px;
     }
     .contact_wrap {
         width: 770px;
-        margin: 40px auto;
+        margin: 50px auto;
     }
     .contact_info h2 {
         width: 340px;
     }
     .contact_info p {
-        font-size: 1em;
-        margin: 5px 0px;
+        margin: 8px 0px;
     }
     /*Contact form*/
+    .form_wrap {
+        width: 240px;
+    }
     input,
     textarea {
-        padding: 10px 40px 10px 5px;
-    }
-    .form_wrap {
-        width: 227px;
+        width: 233px;
     }
 }
 
@@ -190,6 +188,6 @@ button:hover {
     /*Contact info and form*/
     .contact_container {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
 }

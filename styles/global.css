@@ -31,11 +31,18 @@
                 font-family: "menco", sans-serif;
                 font-weight: 500;
                 font-style: normal;
-                font-size: 1.4em;
+                font-size: 1.5em;
                 color: #212a31;
             }
             
-            p,
+            p {
+                font-family: "franklin-gothic-urw", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.2em;
+                color: #212a31;
+            }
+            
             footer {
                 font-family: "franklin-gothic-urw", sans-serif;
                 font-weight: 400;
@@ -71,16 +78,24 @@
                 margin-top: 50px;
             }
             
-            nav a {
-                color: #fff;
+            nav ul {
+                padding: 0px;
             }
             
             nav li {
                 display: block;
                 font-family: "unit-rounded", sans-serif;
-                font-size: 1.1em;
+                font-size: 1.3em;
                 padding-bottom: 20px;
                 min-width: 200px;
+            }
+            
+            nav a {
+                color: #fff;
+            }
+            
+            .exb-spaces {
+                display: none;
             }
             
             nav li:hover,
@@ -88,17 +103,10 @@
                 text-decoration: underline #fff;
             }
             
-            nav ul {
-                padding: 0px;
-            }
-            
-            .exb-spaces {
-                display: none;
-            }
-            
             .active,
             .exb-spaces .active {
-                text-decoration: underline #fff;
+                text-decoration: underline;
+                color: #fff;
             }
             /*hamburger menu*/
             
@@ -154,7 +162,7 @@
             .footer-hours p {
                 font-size: 0.8em;
                 line-height: 9px;
-                width: 150px;
+                width: 160px;
             }
             
             footer>section {

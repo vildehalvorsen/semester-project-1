@@ -14,14 +14,14 @@ h1 {
 .content {
     background-color: rgb(63, 166, 82, 0.25);
     padding: 10px 0px;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .content h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 
@@ -31,7 +31,8 @@ h1 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    margin: 30px auto;
+    height: 650px;
+    margin: 50px auto;
 }
 
 .support_img {
@@ -40,11 +41,14 @@ h1 {
     background-size: cover;
     background-position: center;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .support_text {
-    padding: 10px 20px;
+    width: 250px;
+    height: auto;
+    padding: 10px 0px;
+    margin: 0px auto;
 }
 
 
@@ -54,7 +58,8 @@ h1 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    margin: 30px auto;
+    height: 750px;
+    margin: 50px auto;
 }
 
 .volunteer_img {
@@ -63,11 +68,14 @@ h1 {
     background-size: cover;
     background-position: center;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .volunteer_text {
-    padding: 10px 20px;
+    width: 250px;
+    height: auto;
+    padding: 10px 0px;
+    margin: 0px auto;
 }
 
 
@@ -77,7 +85,8 @@ h1 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    margin: 30px auto;
+    height: 710px;
+    margin: 50px auto;
 }
 
 .internship_img {
@@ -86,11 +95,14 @@ h1 {
     background-size: cover;
     background-position: center;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .internship_text {
-    padding: 10px 20px;
+    width: 250px;
+    height: auto;
+    padding: 10px 0px;
+    margin: 0px auto;
 }
 
 .internship span {
@@ -132,58 +144,59 @@ h1 {
     }
     /* Content */
     .content {
-        margin: 40px 0px;
-    }
-    .content p {
-        padding-right: 30px;
+        margin: 80px 0px;
     }
     .support_text,
     .volunteer_text,
     .internship_text {
-        width: 400px;
+        width: 380px;
+        margin: 0px 0px 0px 20px;
     }
     /* Support */
     .support {
         width: 550px;
-        height: 290px;
-        margin: 40px auto;
+        height: 355px;
+        margin: 50px auto;
     }
     .support_img {
         background-image: url(/images/support-2.jpg);
         border-radius: 0px 30px 30px 0px;
         float: right;
-        width: 130px;
-        height: 290px;
+        width: 140px;
+        height: 355px;
     }
     /* Volunteer */
     .volunteer {
         width: 550px;
-        height: 330px;
-        margin: 40px auto;
+        height: 425px;
+        margin: 50px auto;
     }
     .volunteer_img {
         background-image: url(/images/volunteer-2.jpg);
         border-radius: 0px 30px 30px 0px;
         float: right;
-        width: 130px;
-        height: 330px;
+        width: 140px;
+        height: 425px;
     }
     /* Internship */
     .internship {
         width: 550px;
-        height: 300px;
-        margin: 40px auto;
+        height: 400px;
+        margin: 50px auto;
     }
     .internship_img {
         background-image: url(/images/internship-2.jpg);
         border-radius: 0px 30px 30px 0px;
         float: right;
         width: 130px;
-        height: 300px;
+        height: 400px;
     }
     /* Contact button */
     .contact_btn a {
         padding: 10px 40px;
+    }
+    .contact_btn {
+        margin: 80px auto;
     }
 }
 
@@ -193,54 +206,42 @@ h1 {
         padding: 70px 0px;
     }
     /* Content */
-    .content {
-        margin: 50px 0px;
-    }
-    .content p {
-        padding-right: 0px;
+    .support_text,
+    .volunteer_text,
+    .internship_text {
+        width: 480px;
+        margin: 0px 0px 0px 30px;
     }
     /* Support */
     .support {
-        width: 610px;
-        height: 250px;
-        margin: 50px auto;
+        width: 700px;
+        height: 345px;
     }
     .support_img {
-        height: 250px;
-    }
-    .support_text {
-        width: 430px;
+        width: 160px;
+        height: 345px;
     }
     /* Volunteer */
     .volunteer {
-        width: 610px;
-        height: 300px;
-        margin: 50px auto;
+        width: 700px;
+        height: 415px;
     }
     .volunteer_img {
-        height: 300px;
-    }
-    .volunteer_text {
-        width: 440px;
+        width: 160px;
+        height: 415px;
     }
     /* Internship */
     .internship {
-        width: 610px;
-        height: 300px;
-        margin: 50px auto;
+        width: 700px;
+        height: 360px;
     }
     .internship_img {
-        height: 300px;
-    }
-    .internship_text {
-        width: 430px;
+        width: 160px;
+        height: 360px;
     }
     /* Contact button */
-    .contact_btn a {
-        padding: 10px 40px;
-    }
     .contact_btn {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 }
 
@@ -253,6 +254,6 @@ h1 {
     /* Content */
     .content {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
 }

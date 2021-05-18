@@ -11,7 +11,7 @@ h1 {
 
 /* About */
 
-h2 {
+.about h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -21,15 +21,15 @@ h2 {
 .about {
     background-color: rgba(63, 166, 82, 0.25);
     padding: 10px 0px;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .about_1 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 370px;
-    margin: 30px auto;
+    height: 510px;
+    margin: 50px auto;
 }
 
 .about_img-1 {
@@ -38,19 +38,21 @@ h2 {
     background-position: center;
     border-radius: 30px 30px 0px 0px;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .about_text-1 {
-    padding: 0px 10px 0px 15px;
+    width: 270px;
+    height: auto;
+    margin: 0px auto;
 }
 
 .about_2 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 350px;
-    margin: 30px auto;
+    height: 465px;
+    margin: 50px auto;
 }
 
 .about_img-2 {
@@ -59,19 +61,21 @@ h2 {
     background-position: top;
     border-radius: 30px 30px 0px 0px;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .about_text-2 {
-    padding: 0px 15px;
+    width: 270px;
+    height: auto;
+    margin: 0px auto;
 }
 
 .about_3 {
     background-color: #fff;
     border-radius: 30px;
     width: 300px;
-    height: 440px;
-    margin: 30px auto;
+    height: 580px;
+    margin: 50px auto;
 }
 
 .about_img-3 {
@@ -80,11 +84,13 @@ h2 {
     background-position: center;
     border-radius: 30px 30px 0px 0px;
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .about_text-3 {
-    padding: 10px 30px 10px 15px;
+    width: 270px;
+    height: auto;
+    margin: 0px auto;
 }
 
 
@@ -93,7 +99,7 @@ h2 {
 .visit {
     background-color: rgba(245, 129, 18, 0.25);
     padding: 5px 0px;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .visit_wrap {
@@ -101,41 +107,47 @@ h2 {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    padding: 10px 20px;
+    width: 300px;
+    height: 1250px;
+    padding: 10px 0px;
     margin: 30px auto;
 }
 
 .visit h2 {
+    font-family: "menco", sans-serif;
+    font-size: 2em;
     text-align: center;
-    font-size: 1.5em;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .visit h3 {
-    font-size: 1.2em;
-    margin: 10px 0px 5px;
+    font-size: 1.3em;
+    margin: 10px 0px;
 }
 
 .visit_col-1 p {
-    width: 249px;
-    font-size: 0.9em;
-    margin: 3px 0px;
+    width: 250px;
+    font-size: 1.1em;
+    margin: 5px 0px;
 }
 
 .adm p {
-    margin: 15px 0px 0px;
+    margin-bottom: 15px;
 }
 
 .visit_col-1>div,
 .visit_col-2>div {
-    padding-bottom: 15px;
+    padding: 0px 0px 15px 20px;
 }
 
 .visit_col-2 p {
-    width: 248px;
-    font-size: 0.9em;
-    margin: 3px 0px;
+    width: 250px;
+    font-size: 1.1em;
+    margin: 5px 0px;
+}
+
+.visit_col-2 span {
+    display: block;
 }
 
 
@@ -145,17 +157,12 @@ h2 {
     /* Visit */
     .visit_wrap {
         width: 350px;
-        padding-bottom: 20px;
+        height: 1160px;
+        padding: 20px 0px;
     }
-    .visit_content {
-        padding-left: 15px;
-    }
-    .visit_content p {
-        width: 310px;
-        font-size: 1em;
-    }
-    .visit span {
-        display: block;
+    .visit_col-1 p,
+    .visit_col-2 p {
+        width: 300px;
     }
 }
 
@@ -165,59 +172,53 @@ h2 {
         font-size: 2em;
     }
     /* About */
+    .about h2 {
+        font-size: 1.5em;
+    }
     .about {
-        margin: 50px 0px;
+        margin: 80px 0px;
     }
     .about_1 {
+        margin: 70px auto;
         width: 550px;
-        height: 290px;
-        margin: 40px auto;
-    }
-    .about_img-1 {
-        background-position-y: 30%;
-        width: 550px;
+        height: 450px;
     }
     .about_2 {
+        margin: 70px auto;
         width: 550px;
-        height: 270px;
-        margin: 40px auto;
+        height: 430px;
     }
     .about_img-2 {
-        background-position-y: 20%;
-        width: 550px;
+        background-position-y: 30%;
     }
     .about_3 {
+        margin: 70px auto;
         width: 550px;
-        height: 320px;
-        margin: 40px auto;
+        height: 500px;
     }
+    .about_img-1,
+    .about_img-2,
     .about_img-3 {
-        width: 550px;
+        width: auto;
+        height: 200px;
     }
+    .about_text-1,
+    .about_text-2,
     .about_text-3 {
-        padding: 10px 20px 10px 15px;
+        width: 500px;
     }
     /* Visit */
     .visit {
-        padding: 30px 0px;
-        margin: 50px 0px;
+        margin: 80px 0px;
     }
     .visit_wrap {
-        width: 500px;
+        width: 450px;
+        height: 1160px;
     }
-    .visit_content {
-        display: flex;
-        justify-content: space-around;
-        padding: 0px;
-    }
-    .visit_col-1 p {
-        width: 205px;
-    }
-    .adm {
-        margin-top: 27px;
-    }
-    .visit_col-2 p {
-        width: 220px;
+    .visit_col-1,
+    .visit_col-2 {
+        width: 380px;
+        margin: 0px 40px;
     }
 }
 
@@ -227,74 +228,90 @@ h2 {
         padding: 70px 0px;
     }
     /* About */
-    h2 {
-        font-size: 1.4em;
+    .about {
+        padding: 30px 0px 50px;
     }
     .about_1 {
         width: 700px;
-        height: 220px;
-        margin: 50px auto;
+        height: 270px;
     }
     .about_img-1 {
         background-image: url(/images/about-1-2.jpg);
         background-position: center;
         float: right;
-        width: 200px;
-        height: 220px;
         border-radius: 0px 30px 30px 0px;
+        width: 200px;
+        height: 270px;
     }
     .about_text-1 {
-        width: 440px;
-        padding: 10px 30px;
+        width: 460px;
+        height: auto;
+        padding: 10px 20px;
+        margin: 0px;
     }
     .about_2 {
         width: 700px;
-        height: 200px;
-        margin: 50px auto;
+        height: 255px;
     }
     .about_img-2 {
         background-image: url(/images/about-2-2.jpg);
         background-position: center;
         float: right;
-        width: 200px;
-        height: 200px;
         border-radius: 0px 30px 30px 0px;
+        width: 200px;
+        height: 255px;
     }
     .about_text-2 {
-        width: 420px;
-        padding: 10px 30px;
+        width: 460px;
+        height: auto;
+        padding: 10px 20px;
+        margin: 0px;
     }
     .about_3 {
         width: 700px;
-        height: 260px;
-        margin: 50px auto;
+        height: 310px;
     }
     .about_img-3 {
         background-image: url(/images/about-3-2.jpg);
         float: right;
         width: 200px;
-        height: 260px;
+        height: 310px;
         border-radius: 0px 30px 30px 0px;
     }
     .about_text-3 {
-        width: 420px;
-        padding: 10px 30px;
+        width: 460px;
+        height: auto;
+        padding: 10px 20px;
+        margin: 0px;
     }
     /* Visit */
-    .visit {
+    .visit_wrap {
+        display: inherit;
+        width: 700px;
+        height: 700px;
         margin: 50px auto;
     }
-    .visit_wrap {
-        width: 700px;
-        padding: 20px 0px;
-    }
-    .visit_col-1 p,
-    .visit_col-2 p {
-        width: 270px;
+    .visit_content {
+        display: flex;
+        width: 640px;
+        margin: 0px auto;
     }
     .visit_col-1,
+    .visit_col-2 {
+        margin: 0px;
+    }
+    .visit_col-1 p {
+        margin: 10px 0px;
+        width: 250px;
+    }
+    .adm {
+        margin-top: 26px;
+    }
+    .visit_col-2 p {
+        width: 260px;
+    }
     .visit_col-2>div {
-        padding-bottom: 10px;
+        margin-top: 10px;
     }
 }
 
@@ -307,11 +324,11 @@ h2 {
     /* Abou t*/
     .about {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     /* Visit */
     .visit {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
 }

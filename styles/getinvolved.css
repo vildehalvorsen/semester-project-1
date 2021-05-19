@@ -38,7 +38,6 @@ h1 {
 .volunteer_text,
 .internship_text {
     width: 250px;
-    height: auto;
     padding: 10px 0px;
     margin: 0px auto;
 }
@@ -51,7 +50,7 @@ h1 {
     border-radius: 30px 30px 0px 0px;
     background-size: cover;
     background-position: center;
-    width: 300px;
+    width: auto;
     height: 150px;
 }
 
@@ -63,7 +62,7 @@ h1 {
     border-radius: 30px 30px 0px 0px;
     background-size: cover;
     background-position: center;
-    width: 300px;
+    width: auto;
     height: 150px;
 }
 
@@ -75,7 +74,7 @@ h1 {
     border-radius: 30px 30px 0px 0px;
     background-size: cover;
     background-position: center;
-    width: 300px;
+    width: auto;
     height: 150px;
 }
 
@@ -121,6 +120,11 @@ h1 {
     .content {
         margin: 80px 0px;
     }
+    .support_img,
+    .volunteer_img,
+    .internship_img {
+        height: 200px;
+    }
     .support,
     .volunteer,
     .internship {
@@ -131,33 +135,9 @@ h1 {
     .support_text,
     .volunteer_text,
     .internship_text {
-        width: 370px;
-        padding-bottom: 30px;
-        margin: 0px 0px 0px 20px;
-    }
-    /* Support */
-    .support_img {
-        background-image: url(/images/support-2.jpg);
-        border-radius: 0px 30px 30px 0px;
-        float: right;
-        width: 140px;
-        height: 369px;
-    }
-    /* Volunteer */
-    .volunteer_img {
-        background-image: url(/images/volunteer-2.jpg);
-        border-radius: 0px 30px 30px 0px;
-        float: right;
-        width: 140px;
-        height: 435px;
-    }
-    /* Internship */
-    .internship_img {
-        background-image: url(/images/internship-2.jpg);
-        border-radius: 0px 30px 30px 0px;
-        float: right;
-        width: 130px;
-        height: 411px;
+        width: 450px;
+        padding: 20px 0px 30px;
+        margin: 0px auto;
     }
     /* Contact button */
     .contact_btn a {
@@ -181,26 +161,15 @@ h1 {
     .internship {
         width: 700px;
     }
+    .support_img,
+    .volunteer_img,
+    .internship_img {
+        height: 210px;
+    }
     .support_text,
     .volunteer_text,
     .internship_text {
-        width: 480px;
-        margin: 0px 0px 0px 30px;
-    }
-    /* Support */
-    .support_img {
-        width: 160px;
-        height: 346px;
-    }
-    /* Volunteer */
-    .volunteer_img {
-        width: 160px;
-        height: 412px;
-    }
-    /* Internship */
-    .internship_img {
-        width: 160px;
-        height: 365px;
+        width: 600px;
     }
     /* Contact button */
     .contact_btn {

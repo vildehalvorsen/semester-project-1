@@ -20,7 +20,7 @@ h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 
@@ -136,6 +136,9 @@ h2 {
     .cosmology {
         padding: 80px 0px;
         margin: 80px 0px;
+    }
+    h2 {
+        font-size: 1.5em;
     }
     .cosmology_content {
         width: 550px;

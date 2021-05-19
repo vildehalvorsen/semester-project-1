@@ -4,7 +4,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(43, 167, 218, 0.25);
-    padding: 40px 0px;
+    padding: 50px 0px;
     margin: 0px;
 }
 
@@ -15,7 +15,15 @@ h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.4em;
+}
+
+.kids_container,
+.ys_container {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 310px;
+    margin: 50px auto;
 }
 
 
@@ -24,29 +32,26 @@ h2 {
 .kids_info {
     background-color: rgba(63, 166, 82, 0.25);
     padding: 10px 0px;
-    margin: 30px 0px;
-}
-
-.kids_container {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    height: 540px;
-    margin: 30px auto;
+    margin: 50px 0px;
 }
 
 .kids_img {
     background-image: url(/images/kids-page-1.jpg);
     background-size: cover;
     background-position: center;
-    height: 100px;
-    width: 300px;
+    height: 150px;
+    width: auto;
     border-radius: 30px 30px 0px 0px;
 }
 
 .info_text {
-    width: 270px;
+    width: 285px;
+    padding: 10px 0px 20px;
     margin: 0px auto;
+}
+
+.info_text span {
+    display: block;
 }
 
 
@@ -55,28 +60,21 @@ h2 {
 .ys_info {
     background-color: rgba(245, 129, 18, 0.25);
     padding: 10px 0px;
-    margin: 30px 0px;
-}
-
-.ys_container {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    height: 380px;
-    margin: 30px auto;
+    margin: 50px 0px;
 }
 
 .ys_img {
     background-image: url(/images/youngstars.jpg);
     background-size: cover;
     background-position: center;
-    height: 120px;
-    width: 300px;
+    height: 150px;
+    width: auto;
     border-radius: 30px 30px 0px 0px;
 }
 
 .ys_text {
-    width: 275px;
+    width: 260px;
+    padding: 10px 0px 20px;
     margin: 0px auto;
 }
 
@@ -86,13 +84,19 @@ h2 {
 .spaces {
     background-color: rgba(43, 167, 218, 0.25);
     text-align: center;
-    padding: 10px 0px 20px;
-    margin: 30px 0px;
+    padding: 40px 0px;
+    margin: 50px 0px;
 }
 
 .spaces h2 {
-    margin: 0px;
-    padding: 10px 0px 20px;
+    margin: 0px 0px 30px;
+}
+
+.spaces_content {
+    display: flex;
+    overflow-y: scroll;
+    width: 270px;
+    margin: 0px auto;
 }
 
 .spaces img {
@@ -106,61 +110,42 @@ h2 {
     background-color: #fff;
     border-radius: 0px 0px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-    max-width: 100px;
-    min-height: 21px;
-    margin: -4px 0px 0px;
-    padding: 5px;
+    width: 110px;
+    margin-top: -4px;
+    padding: 8px 0px;
 }
 
 .spaces_content>div {
-    padding: 5px 10px 20px 0px;
-    margin: 5px 3px;
+    margin: 5px 8px;
 }
 
 .spaces_content>div:hover {
     transform: scale(1.05);
 }
 
-.spaces_content {
-    display: flex;
-    overflow-y: scroll;
-    width: 250px;
-    margin: 0px auto;
-}
-
 @media all and (min-width:400px) {
-    /* Info */
-    .kids_container {
-        width: 360px;
-        height: 520px;
-    }
-    .kids_img {
-        width: 360px;
-        height: 120px;
-    }
-    .info_text {
-        width: 320px;
-    }
-    /* Young Star Club*/
+    /* Content */
+    .kids_container,
     .ys_container {
         width: 360px;
     }
-    .ys_img {
-        width: 360px;
-        height: 140px;
+    /* Info */
+    .info_text {
+        width: 315px;
     }
+    .info_text span {
+        display: inline;
+    }
+    /* Young Star Club*/
     .ys_text {
-        width: 320px;
+        width: 330px;
     }
     /*Exhibition spaces*/
-    .spaces {
-        padding: 25px 0px;
-    }
-    .spaces_content>div {
-        padding-right: 15px;
-    }
     .spaces_content {
         width: 340px;
+    }
+    .spaces_content>div {
+        margin: 10px;
     }
 }
 
@@ -168,42 +153,30 @@ h2 {
     /* Header */
     h1 {
         font-size: 2em;
+        padding: 80px 0px;
     }
-    /* Info */
-    .kids_info {
-        margin: 40px auto;
-    }
-    .kids_container {
-        width: 460px;
-        height: 490px;
-        margin: 40px auto;
-    }
-    .kids_img {
-        width: 460px;
-        height: 150px;
-    }
-    .info_text {
-        width: 410px;
-    }
-    /* Young Star Club*/
+    /* Content */
+    .kids_info,
     .ys_info {
-        margin: 40px auto;
+        margin: 80px 0px;
     }
+    .kids_container,
     .ys_container {
-        width: 460px;
-        height: 360px;
-        margin: 40px auto;
+        width: 500px;
+        margin: 50px auto;
     }
+    .kids_img,
     .ys_img {
-        width: 460px;
-        height: 160px;
+        height: 200px;
     }
+    .info_text,
     .ys_text {
         width: 410px;
     }
     /*Exhibition spaces*/
     .spaces {
-        margin: 40px 0px;
+        padding: 40px 0px;
+        margin: 80px 0px;
     }
     .spaces_content {
         width: 450px;
@@ -213,56 +186,36 @@ h2 {
 @media all and (min-width:800px) {
     /* Header */
     h1 {
-        padding: 70px 0px;
+        font-size: 3em;
+        padding: 100px 0px;
     }
     /* Content */
     h2 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
-    /* Info */
-    .kids_info {
-        margin: 50px 0px;
-    }
-    .kids_container {
-        width: 700px;
-        height: 420px;
-    }
-    .kids_img {
-        width: 700px;
-        height: 170px;
-    }
-    .info_text {
-        width: 640px;
-    }
-    /* Young Star Club*/
-    .ys_info {
-        margin: 50px 0px;
-    }
+    .kids_container,
     .ys_container {
         width: 700px;
-        height: 210px;
     }
+    .info_text,
     .ys_text {
-        width: 430px;
-        margin: 0px;
-        padding: 5px 0px 0px 20px;
+        width: 600px;
+        padding-bottom: 30px;
     }
-    .ys_img {
-        float: right;
-        border-radius: 0px 30px 30px 0px;
-        width: 230px;
-        height: 210px;
+    /* Info */
+    .info_text span {
+        display: block;
     }
     /*Exhibition spaces*/
     .spaces {
-        margin: 50px 0px;
+        margin: 80px 0px;
     }
     .spaces_content>div {
-        padding-right: 20px;
+        margin: 10px 15px;
     }
     .spaces_content {
         overflow-y: visible;
-        width: 660px;
+        width: 700px;
     }
 }
 
@@ -275,16 +228,16 @@ h2 {
     /* Info */
     .kids_info {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     /* Young Star Club*/
     .ys_info {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     /* Exhibition spaces */
     .spaces {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
 }

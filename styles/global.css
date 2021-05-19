@@ -150,19 +150,19 @@
             }
             
             .footer-info>div {
-                margin-bottom: 23px;
+                margin-bottom: 20px;
             }
             
             .footer-info p {
                 font-size: 0.8em;
                 width: 100px;
-                margin: 0px;
+                margin: 6px 0px;
             }
             
             .footer-hours p {
                 font-size: 0.8em;
-                line-height: 9px;
                 width: 160px;
+                margin: 6px 0px;
             }
             
             footer>section {

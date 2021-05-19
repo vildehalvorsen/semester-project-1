@@ -4,6 +4,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     color: #fff;
+    margin: 0px;
 }
 
 .cosm_header {
@@ -50,8 +51,8 @@ h2 {
 .cosmology_content {
     background-color: #fff;
     border-radius: 30px;
-    padding: 0px;
     width: 290px;
+    padding: 0px;
     margin: 0px auto;
 }
 

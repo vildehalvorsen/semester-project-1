@@ -3,19 +3,20 @@
 h1 {
     display: flex;
     justify-content: center;
-    width: 100px;
-    margin: 16px auto;
+    font-size: 2em;
     color: #fff;
     background-color: rgba(110, 130, 79, 0.8);
     box-shadow: #6e824f 0px 0px 30px 10px;
     border-radius: 30px;
+    width: 100px;
+    margin: 0px auto;
 }
 
 .eco_header {
     background-image: url(/images/header/ecology_header.jpg);
     background-size: cover;
     background-position-y: top;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
 
@@ -25,7 +26,7 @@ h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 
@@ -33,8 +34,8 @@ h2 {
 
 .ecology {
     background-color: rgb(63, 166, 82, 0.25);
-    margin: 30px 0px;
-    padding: 40px 0px;
+    margin: 50px 0px;
+    padding: 50px 0px;
 }
 
 .ecology_img {
@@ -42,21 +43,21 @@ h2 {
     background-position-y: 45%;
     background-size: cover;
     border-radius: 30px 30px 0px 0px;
-    width: 290px;
-    height: 100px;
+    width: auto;
+    height: 150px;
 }
 
 .ecology_text {
-    width: 240px;
-    padding: 10px 0px;
+    width: 250px;
+    padding: 10px 0px 20px;
     margin: 0px auto;
 }
 
 .ecology_content {
     background-color: #fff;
     border-radius: 30px;
-    padding: 0px;
     width: 290px;
+    padding: 0px;
     margin: 0px auto;
 }
 
@@ -125,10 +126,7 @@ h2 {
         padding: 40px 0px;
     }
     .ecology_text {
-        width: 300px;
-    }
-    .ecology_img {
-        width: 350px;
+        width: 290px;
     }
     .ecology_content {
         width: 350px;
@@ -138,28 +136,26 @@ h2 {
 @media all and (min-width:600px) {
     /* Header */
     h1 {
-        font-size: 2em;
-        width: 130px;
+        font-size: 2.5em;
+        box-shadow: #6e824f 0px 0px 20px 10px;
+        width: 190px;
     }
     /* Ecology */
     .ecology {
-        padding: 50px 0px;
-        margin: 40px 0px;
+        padding: 80px 0px;
+        margin: 80px 0px;
+    }
+    h2 {
+        font-size: 1.5em;
     }
     .ecology_content {
-        display: flex;
-        padding: 0px;
-        width: 580px;
+        width: 550px;
     }
     .ecology_img {
-        background-image: url(/images/exhibition-spaces/5-ecology-2-2.jpg);
-        background-position: center;
-        border-radius: 30px 0px 0px 30px;
-        width: 200px;
-        height: auto;
+        height: 200px;
     }
     .ecology_text {
-        width: 350px;
+        width: 480px;
     }
     /*Exhibition spaces*/
     .spaces {
@@ -173,20 +169,19 @@ h2 {
 
 @media all and (min-width:800px) {
     /* Header */
+    h1 {
+        font-size: 3em;
+    }
     .eco_header {
-        padding: 50px 0px;
-        background-position-y: center;
+        padding: 100px 0px;
+        background-position: center;
     }
     /* Ecology */
-    .ecology {
-        padding: 70px 0px;
-        margin: 50px 0px;
-    }
     .ecology_content {
         width: 660px;
     }
     .ecology_text {
-        width: 410px;
+        width: 550px;
     }
     /*Exhibition spaces*/
     .spaces {
@@ -210,7 +205,7 @@ h2 {
     /* Ecology */
     .ecology {
         width: 1500px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     /*Exhibition spaces*/
     .spaces {

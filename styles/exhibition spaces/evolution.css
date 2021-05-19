@@ -1,15 +1,22 @@
     /* Header */
     
     h1 {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
         color: #fff;
+        background-color: rgba(49, 41, 38, 0.8);
+        box-shadow: #312926 0px 0px 20px 10px;
+        border-radius: 30px;
+        width: 180px;
+        margin: 0px auto;
     }
     
     .evo_header {
         background-image: url(/images/header/evolution_header.jpg);
         background-size: cover;
         background-position-y: top;
-        padding: 30px 0px;
+        padding: 50px 0px;
     }
     /* Content */
     
@@ -17,14 +24,14 @@
         font-family: "menco", sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
     /* Evolution */
     
     .evolution {
         background-color: rgba(63, 166, 82, 0.25);
-        margin: 30px 0px;
-        padding: 40px 0px;
+        margin: 50px 0px;
+        padding: 50px 0px;
     }
     
     .evolution_img {
@@ -32,21 +39,21 @@
         background-position: center;
         background-size: cover;
         border-radius: 30px 30px 0px 0px;
-        width: 290px;
-        height: 100px;
+        width: auto;
+        height: 150px;
     }
     
     .evolution_text {
         width: 250px;
-        padding: 10px 0px;
+        padding: 10px 0px 20px;
         margin: 0px auto;
     }
     
     .evolution_content {
         background-color: #fff;
         border-radius: 30px;
-        padding: 0px;
         width: 290px;
+        padding: 0px;
         margin: 0px auto;
     }
     /*Exhibition spaces*/
@@ -112,9 +119,6 @@
         .evolution {
             padding: 40px 0px;
         }
-        .evolution_img {
-            width: 350px;
-        }
         .evolution_text {
             width: 300px;
         }
@@ -126,28 +130,21 @@
     @media all and (min-width:600px) {
         /* Header */
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
         }
         /* Evolution */
         .evolution {
-            padding: 50px 0px;
-            margin: 40px 0px;
+            padding: 80px 0px;
+            margin: 80px 0px;
         }
         .evolution_content {
-            display: flex;
-            padding: 0px;
-            width: 580px;
-            height: 340px;
+            width: 550px;
         }
         .evolution_img {
-            background-image: url(/images/exhibition-spaces/2-evolution-2-2.jpg);
-            background-size: cover;
-            border-radius: 30px 0px 0px 30px;
-            width: 200px;
-            height: auto;
+            height: 200px;
         }
         .evolution_text {
-            width: 330px;
+            width: 480px;
         }
         /*Exhibition spaces*/
         .spaces {
@@ -161,20 +158,18 @@
     
     @media all and (min-width:800px) {
         /* Header */
+        h1 {
+            font-size: 3em;
+        }
         .evo_header {
-            padding: 50px 0px;
+            padding: 100px 0px;
         }
         /* Evolution */
-        .evolution {
-            padding: 70px 0px;
-            margin: 50px 0px;
-        }
         .evolution_content {
             width: 660px;
-            height: 300px;
         }
         .evolution_text {
-            width: 410px;
+            width: 550px;
         }
         /*Exhibition spaces*/
         .spaces {
@@ -198,7 +193,7 @@
         /* Evolution */
         .evolution {
             width: 1500px;
-            margin: 50px auto;
+            margin: 100px auto;
         }
         /*Exhibition spaces*/
         .spaces {

@@ -4,7 +4,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(43, 167, 218, 0.25);
-    padding: 40px 0px;
+    padding: 50px 0px;
     margin: 0px;
 }
 
@@ -83,7 +83,7 @@ button {
     font-style: normal;
     font-size: 1.2em;
     border: 1px solid #212a31;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #212a31;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
@@ -106,6 +106,7 @@ button:hover {
     /*Header*/
     h1 {
         font-size: 2em;
+        padding: 80px 0px;
     }
     /* Contact info and form*/
     .contact_container {
@@ -149,12 +150,18 @@ button:hover {
     .form_wrap {
         margin: 0px;
     }
+    /* Button */
+    button {
+        font-size: 1.5em;
+        padding: 10px 25px;
+    }
 }
 
 @media all and (min-width:800px) {
     /*Header*/
     h1 {
-        padding: 70px 0px;
+        font-size: 3em;
+        padding: 100px 0px;
     }
     /*Contact info and form*/
     .contact_container {

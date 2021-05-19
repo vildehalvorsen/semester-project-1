@@ -1,301 +1,278 @@
-/*Header*/
-
-h1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(43, 167, 218, 0.25);
-    padding: 40px 0px;
-    margin: 0px;
-}
-
-
-/* About */
-
-.about h2 {
-    font-family: "menco", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.3em;
-}
-
-.about {
-    background-color: rgba(63, 166, 82, 0.25);
-    padding: 10px 0px;
-    margin: 50px 0px;
-}
-
-.about_1 {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    padding-bottom: 20px;
-    margin: 50px auto;
-}
-
-.about_img-1 {
-    background-image: url(/images/about-1.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 150px;
-}
-
-.about_text-1 {
-    width: 270px;
-    margin: 0px auto;
-}
-
-.about_2 {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    padding-bottom: 20px;
-    margin: 50px auto;
-}
-
-.about_img-2 {
-    background-image: url(/images/about-2.jpg);
-    background-size: cover;
-    background-position: top;
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 150px;
-}
-
-.about_text-2 {
-    width: 270px;
-    margin: 0px auto;
-}
-
-.about_3 {
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    padding-bottom: 20px;
-    margin: 50px auto;
-}
-
-.about_img-3 {
-    background-image: url(/images/about-3.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 30px 30px 0px 0px;
-    width: 300px;
-    height: 150px;
-}
-
-.about_text-3 {
-    width: 270px;
-    margin: 0px auto;
-}
-
-
-/* Visit */
-
-.visit {
-    background-color: rgba(245, 129, 18, 0.25);
-    padding: 5px 0px;
-    margin: 50px 0px;
-}
-
-.visit_wrap {
-    background-color: #fff;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding-bottom: 20px;
-    margin: 30px auto;
-}
-
-.visit h2 {
-    font-family: "menco", sans-serif;
-    font-size: 2em;
-    text-align: center;
-    padding: 5px 0px;
-}
-
-.visit h3 {
-    font-size: 1.3em;
-    margin: 10px 0px;
-}
-
-.visit_col-1 p {
-    width: 250px;
-    font-size: 1.1em;
-    margin: 5px 0px;
-}
-
-.adm p {
-    margin-bottom: 15px;
-}
-
-.visit_col-1>div,
-.visit_col-2>div {
-    padding: 0px 0px 15px 20px;
-}
-
-.visit_col-2 p {
-    width: 250px;
-    font-size: 1.1em;
-    margin: 5px 0px;
-}
-
-.visit_col-2 span {
-    display: block;
-}
-
-
-/* Media Queries */
-
-@media all and (min-width:400px) {
-    /* Visit */
-    .visit_wrap {
-        width: 350px;
-        padding: 20px 0px 40px;
-    }
-    .visit_col-1 p,
-    .visit_col-2 p {
-        width: 300px;
-    }
-}
-
-@media all and (min-width:600px) {
-    /* Header */
+    /*Header*/
+    
     h1 {
-        font-size: 2em;
-    }
-    /* About */
-    .about h2 {
-        font-size: 1.5em;
-    }
-    .about {
-        margin: 80px 0px;
-    }
-    .about_1,
-    .about_2,
-    .about_3 {
-        margin: 70px auto;
-        width: 550px;
-    }
-    .about_img-1,
-    .about_img-2,
-    .about_img-3 {
-        width: auto;
-        height: 200px;
-    }
-    .about_img-2 {
-        background-position-y: 30%;
-    }
-    .about_text-1,
-    .about_text-2,
-    .about_text-3 {
-        width: 500px;
-    }
-    /* Visit */
-    .visit {
-        margin: 80px 0px;
-    }
-    .visit_wrap {
-        width: 450px;
-    }
-    .visit_col-1,
-    .visit_col-2 {
-        width: 380px;
-        margin: 0px 40px;
-    }
-}
-
-@media all and (min-width:800px) {
-    /* Header */
-    h1 {
-        padding: 70px 0px;
-    }
-    /* About */
-    .about {
-        padding: 30px 0px 50px;
-    }
-    .about_1,
-    .about_2,
-    .about_3 {
-        width: 700px;
-    }
-    .about_text-1,
-    .about_text-2,
-    .about_text-3 {
-        width: 460px;
-        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(43, 167, 218, 0.25);
+        padding: 50px 0px;
         margin: 0px;
     }
-    .about_img-1 {
-        background-image: url(/images/about-1-2.jpg);
-        background-position: center;
-        float: right;
-        border-radius: 0px 30px 30px 0px;
-        width: 200px;
-        height: 285px;
+    /* About */
+    
+    .about h2 {
+        font-family: "menco", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.3em;
     }
-    .about_img-2 {
-        background-image: url(/images/about-2-2.jpg);
-        background-position: center;
-        float: right;
-        border-radius: 0px 30px 30px 0px;
-        width: 200px;
-        height: 262px;
+    
+    .about {
+        background-color: rgba(63, 166, 82, 0.25);
+        padding: 10px 0px;
+        margin: 50px 0px;
     }
-    .about_img-3 {
-        background-image: url(/images/about-3-2.jpg);
-        float: right;
-        width: 200px;
-        height: 331px;
-        border-radius: 0px 30px 30px 0px;
-    }
-    /* Visit */
-    .visit_wrap {
-        display: inherit;
-        width: 700px;
-        padding: 20px 0px 60px;
+    
+    .about_1 {
+        background-color: #fff;
+        border-radius: 30px;
+        width: 300px;
+        padding-bottom: 20px;
         margin: 50px auto;
     }
-    .visit_content {
-        display: flex;
-        width: 640px;
+    
+    .about_img-1 {
+        background-image: url(/images/about-1.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 150px;
+    }
+    
+    .about_text-1 {
+        width: 270px;
         margin: 0px auto;
     }
-    .visit_col-1,
-    .visit_col-2 {
-        margin: 0px;
+    
+    .about_2 {
+        background-color: #fff;
+        border-radius: 30px;
+        width: 300px;
+        padding-bottom: 20px;
+        margin: 50px auto;
     }
-    .visit_col-1 p {
-        margin: 10px 0px;
-        width: 250px;
+    
+    .about_img-2 {
+        background-image: url(/images/about-2.jpg);
+        background-size: cover;
+        background-position: top;
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 150px;
     }
-    .adm {
-        margin-top: 26px;
-    }
-    .visit_col-2 p {
-        width: 260px;
-    }
-    .visit_col-2>div {
-        margin-top: 10px;
-    }
-}
-
-@media all and (min-width:1500px) {
-    /* Header */
-    h1 {
-        width: 1500px;
+    
+    .about_text-2 {
+        width: 270px;
         margin: 0px auto;
     }
-    /* Abou t*/
-    .about {
-        width: 1500px;
-        margin: 100px auto;
+    
+    .about_3 {
+        background-color: #fff;
+        border-radius: 30px;
+        width: 300px;
+        padding-bottom: 20px;
+        margin: 50px auto;
+    }
+    
+    .about_img-3 {
+        background-image: url(/images/about-3.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px 30px 0px 0px;
+        width: 300px;
+        height: 150px;
+    }
+    
+    .about_text-3 {
+        width: 270px;
+        margin: 0px auto;
     }
     /* Visit */
+    
     .visit {
-        width: 1500px;
-        margin: 100px auto;
+        background-color: rgba(245, 129, 18, 0.25);
+        padding: 5px 0px;
+        margin: 50px 0px;
     }
-}
+    
+    .visit_wrap {
+        background-color: #fff;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding-bottom: 20px;
+        margin: 30px auto;
+    }
+    
+    .visit h2 {
+        font-family: "menco", sans-serif;
+        font-size: 2em;
+        text-align: center;
+        padding: 5px 0px;
+    }
+    
+    .visit h3 {
+        font-size: 1.3em;
+        margin: 10px 0px;
+    }
+    
+    .visit_col-1 p {
+        width: 250px;
+        font-size: 1.1em;
+        margin: 5px 0px;
+    }
+    
+    .adm p {
+        margin-bottom: 15px;
+    }
+    
+    .visit_col-1>div,
+    .visit_col-2>div {
+        padding: 0px 0px 15px 20px;
+    }
+    
+    .visit_col-2 p {
+        width: 250px;
+        font-size: 1.1em;
+        margin: 5px 0px;
+    }
+    
+    .visit_col-2 span {
+        display: block;
+    }
+    /* Media Queries */
+    
+    @media all and (min-width:400px) {
+        /* Visit */
+        .visit_wrap {
+            width: 350px;
+            padding: 20px 0px 40px;
+        }
+        .visit_col-1 p,
+        .visit_col-2 p {
+            width: 300px;
+        }
+    }
+    
+    @media all and (min-width:600px) {
+        /* Header */
+        h1 {
+            font-size: 2em;
+            padding: 80px 0px;
+        }
+        /* About */
+        .about h2 {
+            font-size: 1.5em;
+        }
+        .about {
+            margin: 80px 0px;
+        }
+        .about_1,
+        .about_2,
+        .about_3 {
+            margin: 70px auto;
+            width: 550px;
+        }
+        .about_img-1,
+        .about_img-2,
+        .about_img-3 {
+            width: auto;
+            height: 200px;
+        }
+        .about_img-2 {
+            background-position-y: 30%;
+        }
+        .about_text-1,
+        .about_text-2,
+        .about_text-3 {
+            width: 500px;
+        }
+        /* Visit */
+        .visit {
+            margin: 80px 0px;
+        }
+        .visit_wrap {
+            width: 450px;
+        }
+        .visit_col-1,
+        .visit_col-2 {
+            width: 380px;
+            margin: 0px 40px;
+        }
+    }
+    
+    @media all and (min-width:800px) {
+        /* Header */
+        h1 {
+            font-size: 3em;
+            padding: 100px 0px;
+        }
+        /* About */
+        .about {
+            padding: 30px 0px 50px;
+        }
+        .about_1,
+        .about_2,
+        .about_3 {
+            width: 600px;
+        }
+        .about_text-1,
+        .about_text-2,
+        .about_text-3 {
+            width: 500px;
+            padding: 10px 20px;
+        }
+        .about_img-1,
+        .about_img-2,
+        .about_img-3 {
+            height: 200px;
+        }
+        /* Visit */
+        .visit_wrap {
+            display: inherit;
+            width: 700px;
+            padding: 20px 0px 60px;
+            margin: 50px auto;
+        }
+        .visit_content {
+            display: flex;
+            width: 640px;
+            margin: 0px auto;
+        }
+        .visit_col-1,
+        .visit_col-2 {
+            margin: 0px;
+        }
+        .visit_col-1 p {
+            margin: 10px 0px;
+            width: 250px;
+        }
+        .adm {
+            margin-top: 26px;
+        }
+        .visit_col-2 p {
+            width: 260px;
+        }
+        .visit_col-2>div {
+            margin-top: 10px;
+        }
+    }
+    
+    @media all and (min-width:1500px) {
+        /* Header */
+        h1 {
+            width: 1500px;
+            margin: 0px auto;
+        }
+        /* Abou t*/
+        .about {
+            width: 1500px;
+            margin: 100px auto;
+        }
+        /* Visit */
+        .visit {
+            width: 1500px;
+            margin: 100px auto;
+        }
+    }

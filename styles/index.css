@@ -47,6 +47,7 @@
 }
 
 .spaces h2 {
+    font-size: 2em;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -86,6 +87,7 @@
 }
 
 .news h2 {
+    font-size: 2em;
     text-align: center;
 }
 
@@ -203,7 +205,7 @@
         margin: 60px 0px;
     }
     .spaces h2 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .spaces a {
         margin: 0px;
@@ -219,6 +221,9 @@
         margin: 40px 30px;
     }
     /* News */
+    .news h2 {
+        font-size: 2.5em;
+    }
     .news-item {
         margin: 50px auto;
     }
@@ -235,11 +240,14 @@
         top: 260px;
     }
     h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     /* Exhibition Spaces */
     .spaces {
         margin: 80px 0px;
+    }
+    .spaces h2 {
+        font-size: 3em;
     }
     .spaces_wrap {
         width: 800px;
@@ -257,7 +265,7 @@
         margin: 80px 0px;
     }
     .news h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .news-item {
         display: flex;

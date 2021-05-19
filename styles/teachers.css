@@ -23,19 +23,12 @@
         margin: 5px 0px;
     }
     
-    .teachers {
-        background-color: #fff;
-        border-radius: 30px;
-        width: 300px;
-        height: 650px;
-        margin: 50px auto;
-    }
-    
+    .teachers,
     .researchers {
         background-color: #fff;
         border-radius: 30px;
         width: 300px;
-        height: 640px;
+        padding-bottom: 20px;
         margin: 50px auto;
     }
     
@@ -94,14 +87,9 @@
         .content {
             margin: 80px 0px;
         }
-        .teachers {
-            width: 500px;
-            height: 520px;
-            margin: 50px auto;
-        }
+        .teachers,
         .researchers {
             width: 500px;
-            height: 500px;
             margin: 50px auto;
         }
         .teacher_img,
@@ -111,6 +99,9 @@
         /* Contact button */
         .contact_btn a {
             padding: 10px 40px;
+        }
+        .contact_btn {
+            margin: 80px auto;
         }
     }
     
@@ -128,10 +119,15 @@
             display: flex;
             flex-direction: row-reverse;
         }
-        .teachers {
+        .teachers,
+        .researchers {
             width: 600px;
-            height: 360px;
-            margin: 50px auto;
+            padding-bottom: 0px;
+            margin: 70px auto;
+        }
+        .teachers_text p,
+        .researchers_text p {
+            width: 390px;
         }
         .teacher_img {
             background-image: url(/images/teacher-1.jpg);
@@ -139,21 +135,12 @@
             background-size: cover;
             border-radius: 0px 30px 30px 0px;
             width: 200px;
-            height: 360px;
-        }
-        .researchers {
-            width: 600px;
-            height: 340px;
-            margin: 50px auto;
+            height: 361px;
         }
         .reasearchers_img {
             background-image: url(/images/researcher-1.jpg);
             border-radius: 0px 30px 30px 0px;
-            height: 340px;
-        }
-        .teachers_text p,
-        .researchers_text p {
-            width: 390px;
+            height: 334px;
         }
         /* Contact button */
         .contact_btn a {

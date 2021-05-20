@@ -95,7 +95,7 @@ h2 {
 
 .spaces_content {
     display: flex;
-    overflow-y: scroll;
+    overflow-x: scroll;
     width: 270px;
     margin: 0px auto;
 }
@@ -215,7 +215,7 @@ h2 {
         margin: 10px 15px;
     }
     .spaces_content {
-        overflow-y: visible;
+        overflow-x: visible;
         width: 700px;
     }
 }

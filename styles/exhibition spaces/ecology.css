@@ -41,7 +41,7 @@ h2 {
 
 .ecology_img {
     background-image: url(/images/exhibition-spaces/5-ecology-2.jpg);
-    background-position-y: 45%;
+    background-position: center;
     background-size: cover;
     border-radius: 30px 30px 0px 0px;
     width: auto;

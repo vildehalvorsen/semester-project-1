@@ -14,6 +14,7 @@ h1 {
 .bio_header {
     background-image: url(/images/header/biology_header.jpg);
     background-size: cover;
+    background-position-x: center;
     background-position-y: top;
     padding: 50px 0px;
 }

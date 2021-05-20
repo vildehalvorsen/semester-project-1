@@ -52,7 +52,7 @@
             /*NAVIGATION BAR*/
             
             header {
-                background-color: rgb(0, 110, 159);
+                background-color: #006e9f;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -63,6 +63,7 @@
             header img {
                 margin: 5px 5px 5px 15px;
                 width: 60%;
+                z-index: 1001;
             }
             /*nav links*/
             
@@ -71,11 +72,12 @@
                 position: absolute;
                 right: 0px;
                 left: 0px;
-                top: 26px;
+                top: 30px;
                 background-color: rgb(0, 110, 159);
                 border-radius: 0px 0px 30px 30px;
                 padding: 0px 0px 0px 30px;
                 margin-top: 50px;
+                z-index: 1;
             }
             
             nav ul {
@@ -175,11 +177,18 @@
                     width: 70%;
                 }
                 /*links*/
+                header label {
+                    display: flex;
+                    position: absolute;
+                    top: 40px;
+                    left: auto;
+                    right: 0px;
+                }
                 nav {
                     left: auto;
                     top: 84px;
                     padding: 10px 20px;
-                    margin-top: 0px;
+                    margin-top: 2px;
                 }
                 nav li {
                     padding-bottom: 18px;

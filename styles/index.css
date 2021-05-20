@@ -273,9 +273,16 @@
         padding-bottom: 0px;
         margin: 50px auto 70px;
     }
+    .news-item:hover img,
+    .news-item:hover h3 {
+        filter: none;
+    }
     .news-item img {
         width: 230px;
         border-radius: 30px 0px 0px 30px;
+    }
+    .news-text {
+        padding: 20px 20px 30px;
     }
     .news h3 {
         font-size: 1.4em;
@@ -285,10 +292,6 @@
         width: auto;
         margin: 0px;
     }
-    .news-item:hover img,
-    .news-item:hover h3 {
-        filter: none;
-    }
     .news-item p {
         position: inherit;
         padding: 0px;
@@ -297,9 +300,6 @@
     #news2 p,
     #news3 p {
         padding: 0px;
-    }
-    .news-text {
-        padding: 20px 20px 30px;
     }
     /*Other info*/
     .others {

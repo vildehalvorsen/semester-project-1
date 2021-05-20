@@ -34,7 +34,7 @@ h2 {
 /* Robotics and AI */
 
 .robotics {
-    background-color: rgb(43, 167, 218, 0.25);
+    background-color: rgba(43, 167, 218, 0.25);
     margin: 50px 0px;
     padding: 50px 0px;
 }

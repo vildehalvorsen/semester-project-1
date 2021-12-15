@@ -11,14 +11,7 @@
         }
         /* FONTS*/
         
-        h1 {
-            font-family: "pinot-grigio-modern", sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            font-size: 1.5em;
-            color: #212a31;
-        }
-        
+        h1,
         h2 {
             font-family: "pinot-grigio-modern", sans-serif;
             font-weight: 700;
@@ -35,19 +28,16 @@
             color: #212a31;
         }
         
-        p {
-            font-family: "franklin-gothic-urw", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 1.2em;
-            color: #212a31;
-        }
-        
+        p,
         footer {
             font-family: "franklin-gothic-urw", sans-serif;
             font-weight: 400;
             font-style: normal;
             color: #212a31;
+        }
+        
+        p {
+            font-size: 1.2em;
         }
         /*NAVIGATION BAR*/
         
@@ -135,6 +125,32 @@
             font-size: 1.5em;
             margin: 0px 15px 0px 10px;
             cursor: pointer;
+        }
+        /* Contact button */
+        
+        .global_btn {
+            display: flex;
+            justify-content: center;
+            margin: 50px auto;
+        }
+        
+        .global_btn a,
+        .global_btn button {
+            font-family: "menco", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 20px;
+            background-color: #212a31;
+            color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
+            padding: 10px 20px;
+        }
+        
+        .global_btn a:hover,
+        .global_btn button:hover {
+            background-color: #006e9f;
         }
         /* Footer */
         

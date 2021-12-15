@@ -26,7 +26,6 @@
     background-color: #212a31;
     color: #fff;
     text-align: center;
-    font-size: 1.5em;
     border-radius: 20px;
     width: 140px;
     padding: 12px 10px;
@@ -163,15 +162,7 @@
     text-align: center;
 }
 
-.teachers {
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
-    border-radius: 30px;
-    width: 220px;
-    padding: 10px 20px;
-    margin: 20px auto;
-}
-
+.teachers,
 .getinvolved {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.15)1px 7px 5px 0px;
@@ -236,11 +227,10 @@
 @media all and (min-width:800px) {
     /*Header*/
     .header_content {
-        background-position: inherit;
-        height: 488px;
+        background-position: left;
     }
     .header_text {
-        margin: 0px auto 0px 100px;
+        margin-left: 100px;
         top: 260px;
     }
     h1 {
@@ -253,15 +243,15 @@
     .spaces h2 {
         font-size: 3em;
     }
-    .spaces_wrap {
-        width: 800px;
-        margin-bottom: 50px;
-    }
     .spaces a {
         width: 200px;
     }
     .spaces img {
         width: 200px;
+    }
+    .spaces_wrap {
+        width: 800px;
+        margin-bottom: 50px;
     }
     /*News*/
     .news {
@@ -275,7 +265,7 @@
         display: flex;
         width: 650px;
         padding-bottom: 0px;
-        margin: 50px auto 70px;
+        margin-bottom: 70px;
     }
     .news-item:hover img,
     .news-item:hover h3 {
@@ -313,26 +303,24 @@
         display: flex;
         justify-content: center;
     }
-    .teachers {
-        width: 300px;
-        padding: 10px 30px;
-        margin: 50px 30px 50px 0px;
-    }
+    .teachers,
     .getinvolved {
         width: 300px;
         padding: 10px 30px;
         margin: 50px 0px 50px 30px;
+    }
+    .teachers {
+        margin: 50px 30px 50px 0px;
     }
 }
 
 @media all and (min-width:1230px) {
     /*Header*/
     .header_content {
-        background-position: inherit;
         height: 550px;
     }
     .header_text {
-        margin: 0px auto 0px 140px;
+        margin-left: 140px;
     }
 }
 

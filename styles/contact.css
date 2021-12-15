@@ -47,7 +47,7 @@ h3 {
 /*Contact form*/
 
 .form_wrap {
-    width: 228px;
+    width: 250px;
     margin: 0px auto;
 }
 
@@ -62,45 +62,60 @@ textarea {
     color: #212a31;
     border-radius: 20px;
     border: 1px solid #212a31;
-    width: 221px;
-    padding: 10px 0px 10px 5px;
+    width: 250px;
+    padding: 10px 0px 10px 10px;
     margin: 8px 0px;
 }
 
 textarea {
     height: 150px;
-    margin-bottom: 0px;
 }
 
-form p {
+#required {
     opacity: 50%;
     font-size: 0.9em;
-    margin: 0px;
+    margin-left: 5px;
 }
 
-button {
-    font-family: "menco", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2em;
-    border: 1px solid #212a31;
+
+/*Error message and Validation */
+
+#nameError,
+#emailError,
+#subjectError,
+#messageError {
+    display: none;
+    font-size: 0.8em;
+    color: red;
+    margin: -8px 5px 0px;
+}
+
+.validation {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     border-radius: 20px;
-    background-color: #212a31;
-    color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
-    padding: 10px 20px;
-    margin: 20px 0px;
-    cursor: pointer;
+    border: 2px solid #000000;
+    padding: 20px;
 }
 
-button:hover {
-    background-color: #006e9f;
-    border: 1px solid #006e9f;
+.validation p {
+    font-family: "menco", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: green;
 }
 
-.submit_btn {
+
+/*Button*/
+
+.submit {
     display: flex;
     justify-content: flex-end;
+    margin: 20px 0px 30px;
 }
 
 @media all and (min-width:600px) {
@@ -146,15 +161,10 @@ button:hover {
     /*Contact form*/
     input,
     textarea {
-        margin: 9px 0px;
+        width: 235px;
     }
     .form_wrap {
         margin: 0px;
-    }
-    /* Button */
-    button {
-        font-size: 1.5em;
-        padding: 10px 25px;
     }
 }
 
@@ -180,11 +190,11 @@ button:hover {
     }
     /*Contact form*/
     .form_wrap {
-        width: 240px;
+        width: 260px;
     }
     input,
     textarea {
-        width: 233px;
+        width: 250px;
     }
 }
 

@@ -52,32 +52,35 @@
                     <div class="contact_hours">
                         <h2>Opening hours</h2>
                         <p>Monday: Closed</p>
-                        <p>Tuesday: 10:00 – 16:00</p>
-                        <p>Wednesday: 10:00 – 16:00</p>
-                        <p>Thursday: 10:00 – 16:00</p>
-                        <p>Friday: 10:00 – 19:00</p>
-                        <p>Saturday: 9:00 – 16:00</p>
-                        <p>Sunday: 9:00 – 13:00</p>
+                        <p>Tuesday: 10:00 - 16:00</p>
+                        <p>Wednesday: 10:00 - 16:00</p>
+                        <p>Thursday: 10:00 - 16:00</p>
+                        <p>Friday: 10:00 - 19:00</p>
+                        <p>Saturday: 9:00 - 16:00</p>
+                        <p>Sunday: 9:00 - 13:00</p>
                     </div>
                     <div class="contact_apply">
                         <p>Want to work with us, volunteer or apply for an internship?</p>
                         <p>Please send your CV and application to <span>post@csm.no</span></p>
                     </div>
                 </div>
+                <div class="validation"></div>
                 <div class="form_wrap">
                     <form method="POST">
-                        <label for="fname">First name *</label>
-                        <input type="text" id="fname" name="fname" placeholder="First name" required>
-                        <label for="lname">Last name *</label>
-                        <input type="text" id="lname" name="lname" placeholder="Last name" required>
+                        <label for="fullname">Full name *</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Full name">
+                        <p id="nameError" aria-errormessage="Please enter a valid name">Please enter a valid name</p>
                         <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                        <p id="emailError" aria-errormessage="Please enter a valid e-mail address">Please enter a valid e-mail address</p>
                         <label for="subject">Subject *</label>
-                        <input type="text" id="subject*" name="subject" placeholder="Subject" required>
-                        <label for="meddage">Message *</label>
-                        <textarea name="message" placeholder="Text..." required></textarea>
-                        <p>All fields required</p>
-                        <div class="submit_btn">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <p id="subjectError" aria-errormessage="Subject must be more than 5 characters">Subject must be more than 5 characters</p>
+                        <label for="message">Message *</label>
+                        <textarea name="message" id="message" placeholder="Text..."></textarea>
+                        <p id="messageError" aria-errormessage="Message must be more than 15 characters">Message must be more than 15 characters</p>
+                        <p id="required">All fields required</p>
+                        <div class="global_btn submit">
                             <button type="submit">Submit</button>
                         </div>
                     </form>
@@ -114,6 +117,7 @@
         </div>
         <div class="copyright"> &copy; Vilde Halvorsen - 2021</div>
     </footer>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>

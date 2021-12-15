@@ -21,7 +21,6 @@ h1 {
 .content h2 {
     font-family: "menco", sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 1.4em;
 }
 
@@ -81,31 +80,6 @@ h1 {
 
 .internship span {
     font-weight: bold;
-}
-
-
-/* Contact button */
-
-.contact_btn {
-    display: flex;
-    justify-content: center;
-    margin: 50px auto;
-}
-
-.contact_btn a {
-    font-family: "menco", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2em;
-    border-radius: 20px;
-    background-color: #212a31;
-    color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 5px 5px;
-    padding: 10px 20px;
-}
-
-.contact_btn a:hover {
-    background-color: #006e9f;
 }
 
 
